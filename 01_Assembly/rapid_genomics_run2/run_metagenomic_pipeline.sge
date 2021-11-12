@@ -1,0 +1,62 @@
+#$ -cwd
+#$ -q Annotation-[1-2]  
+#$ -pe mpi 20
+#$ -S /bin/bash
+
+
+# Modules used
+module load blast/v2.8.1
+module load MegaHit/v1.2.9
+
+
+
+# Variables
+MEM=232000000000
+
+# Print some informative error meassages
+err() {
+	echo "$1 exited unexpectedly";
+	break;
+}
+
+# Function for checking the exit code of a child process
+checkExit() {
+if [ "$1" == "0" ]; then
+	echo "[Done] $2 `date`";
+	else
+	err "[Error] $2 returned non-0 exit code $1";
+	fi
+}
+
+
+for DIR in `find ./P00* -maxdepth 0 -type d`; do
+	# Make sure this sample has not been analysed already
+	if [ -f ${DIR}/pipeline.done ]; then
+		continue
+	else
+
+	DIR=${DIR#./}
+
+	FILE1=${DIR}/*R1*.fastq.gz
+	FILE2=${DIR}/*R2*.fastq.gz
+
+	# Megahit assembly
+	megahit -m $MEM -1 $FILE1 -2 $FILE2 -t $NSLOTS -o ${DIR}/Megahit --out-prefix ${DIR} 2> ${DIR}/${DIR}_assemble.log
+		checkExit $? "megahit"
+
+	# Create blastdb
+	makeblastdb -in ${DIR}/Megahit/*.fa -dbtype nucl
+
+	#run blast
+        #set filename for new fastafile and db
+        filename=$(echo $DIR | cut -d '/' -f 2)
+        
+        #perform blast against a full chloroplast genome
+        blastn -db ${DIR}/Megahit/$filename.contigs.fa -query chloroplast_genomes.fa -out ../../02_Blast/$filename.BLASTn.txt -task dc-megablast -outfmt '6 qseqid sseqid slen pident length mismatch bitscore' -num_threads $NSLOTS
+
+	# Mark the sample as finished
+	touch ${DIR}/pipeline.done
+	fi 
+done
+
+
