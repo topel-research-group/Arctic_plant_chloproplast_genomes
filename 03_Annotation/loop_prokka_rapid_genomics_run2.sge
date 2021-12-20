@@ -1,0 +1,16 @@
+#$ -cwd
+#$ -q Annotation-[1-2]
+#$ -pe mpi 40
+#$ -S /bin/bash
+
+#modules used
+module load Anaconda3/v2019.10
+module load PROKKA/v1.14.5
+
+for BLAST in `find ../02_Blast/chloroplast_contigs_rapid_genomics_run2/P00* -maxdepth 0 -type f`; do
+    FILESTEM=$(echo $BLAST | cut -d '/' -f 4 | cut -b 1-9)
+    FILE1=$BLAST
+    #echo $FILESTEM
+    #echo $FILE1
+    prokka --cpus $NSLOTS --prefix $FILESTEM --Kingdom Bacteria --locustag $FILESTEM --proteins vaccinium.gb  $FILE1
+done

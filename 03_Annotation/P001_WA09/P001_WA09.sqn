@@ -1,0 +1,1761 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    seq {
+      id {
+        local
+          str "k141_62081" } ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        molinfo {
+          biomol genomic } ,
+        comment "Annotated using prokka 1.14.5 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 26 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 11 ,
+            day 26 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2677 ,
+        seq-data
+          iupacna "ATTTATGCGCATAAATGCGCTACGCGCCCCTAGCAGGGTAAAGCGGGCGAAGGCCTTCA
+GTTGTAGCAGAGACTCCGCTCGCTGAGGCCGGTAGGCTGAAACGCACAGCGCCGGCCTGCCCCATATTCCTCCTGGGG
+GAAATGGCCTTAAGGGTTAGGAGTGAAAACTATTGCCATCCGGGAAAGAAGAGCAGTAAACTCCACCAAAAAACCGAG
+TTTGATCCTGGCTCAGAATGAACGCTAGCGATATGCTTAACACATGCAAGTCGAACGTTGTTTTCCATCCCCCTCGAC
+TGAAAAAGTTGAGAAAGTTGAAAACAAAGTGGCGAACGGGTGCGTAAGGCGTGGGAATCTGCCAAACAGTTTGGGCCA
+AATCCTGAATAAACGAAGGCGCGGCTTCGCTTCGAGAAAGCTAAAAAGCGCTGTTTGATGAGCCTGCGTAGTATTAGG
+TAGTTGGTTAGGTAAAGGCTGACCAAGCCGCAGATGCTTAGCTGGTCTTTTCGGACGATCAGCCACACTGGGACTGAG
+ACACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGGACAATGGGCGAAAGCCTGATCCAGCAATATCGCG
+TGAGTGAGTGAAAAACGTCGCGTTAGCGAGGAAGGGCAATGCCGCTTGTAAAGCTCTTTCGTCGGGTTGGCGATTATG
+ACAAGACTCGAAGAAGAAGCCCCGGCTAACTCCGTGCCAGCAGCCGCGGTAAGACGGGGGGGGCAAGTGTTATTCGGA
+ATGACTGGGCGTAAAGAGCACGTAGGCGGTGAATCAGGTTGGAAGTGAAAGGCGCCAGCTCAACTGGCGGAATGCTTT
+CAAAACCAATTCACTCGAGTGAGATAGAGGAGAGTGGAATTTCGTGTGTAGGGATAAAATCCGAAGATATACGAAGGA
+ACGCCAAAATAGCGAAGGCAGCTTTCTGGGTCTCTACTGACGCTGGGGTGCGAAAGCATGGGGAGCAAACAGGATTAG
+ATACCCTGGTAGTCCATGCCGTAAACGATGAGTGTTCGTCCTTGGTCTGCAAGCGGATCGGGGGCCCAGCTAACGCGT
+TAAACACTCCGCCTGGGGAGTACGGTCGCAAGACTGAAACTCAAAGGAATTGACGGGGGCCTGCACAAGCGGTGGAGC
+ATGTGGTTTAATTCGATACAACGCGCAAAACCTTACCAGCCCTTGACATATGAACACTTGACATATGAACAAAAGTTC
+ACAAGTGTGCTTGTCCTTAACAGGATGAAACGAAAATTCATACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTCGTGA
+GACGTTTTTGGTTAACTCCTACAACGAGCGAAACCCTCGTTTTGTGTTGCTAAGACATGCTGCTTTCAAATGATCAAT
+GTCATCATTTACCCACTGAGAAACAGCAGAGAATTTAGGGGAGAGGGCGCGCCAGCGCACCCCGCGCTAACGCCCCGC
+GCTAACCCCCCGCGCTAACGCCCCGGCGAGACGCGGGTTCAAGGTCGCGGTTTAAAGCCGGGGCCGGGTAGGCACGGG
+CCGCGACGAACGCACAAAGTGTGCGACGAGCCACCTAGTAATGGGTGGTAAGTGGGGCCGCTTCGCGGGCAGGGGCGG
+CGACGCAGCCGCGTCTCGCCCCTCGGCCTATCGGCCGACCACAAAGCCAGAAAGCGCTTGCGCTTTCCGAAGCAAGCC
+CTAAAGGCCTTTAGGCCGGAAGGCGCCCGCCTTCTAGGCCTTTAGGCCGGAAGGCGGCCCGCCTTCTAGGCCTCCCCT
+AATCTGTGGCTGAATCTTAGCCGGAACCAGTCTTGATGACAGTGCCTTTTTAAGGGTGTTGCACTCACAAAAGACTGC
+CTGCCTAGTATACTTATGGAGGAAGGTGGGGATGACGTCAAGTCCGCATGGCCCTTATGGGCTGGGCTACACACGTGC
+TACAATGGCAATTACAATAGGAAGCAAGGCCGTAAGGCGGAGCGAATCCAGAAAGATTGCCTCAGTTCGGATTGTTCT
+CTGCAACTCGAGAACATGAAGTTGGAATCGCTAGTAATCGCGGATCAGCATGCCGCGGTGAATATGTACCCGGGCCCT
+GTACACACCGCCCGTCACACCCTGGGAATTGGTTCCGCCCGAAGCATCGACCAAGGATCACCCATTCCTCAAGTGCTC
+CACGCCTAGTTGAGTGTGGCCCACTTTGGTTTTGGTGGTCTTCTTGGCGCATACCACGGTTGGGTCAGTGACTGAGGT
+GAAGTCGTAACATGGTAGTCGTAGGGGAACCTGTGGCTGGATGGAATCCTAAAGGAAGGCGCCAGCGAGCGTCCTTCC
+ATTAACTGTACTAACGTTGGGAGAGTCAATTTTAAGGGTAAATTGCCCTTTTCTCTTAAAGGGCGCTATGCGGGAGCG
+AGGTACGAGCGTTTTCGAAGAAGAACAAGCCGCAATCTCATACTGAAGAATTTGTCGAATTTCATTTTGAGAAATTTT
+AGATAAAAATTCATCCCCCCCGTTTTATCGAGCCGTTTTCTTCCGCTACGCGTTTTCCCCGGCCCCCACCCCACCAAG
+TACCCCCTTCGGGGGGGTCGTTTAGGTTTTGAAATAATGATTCATGCTTCTTATACTGGACAAGCAAGAGCTCGGAAT
+CCACCACAAAAGCTGATTAATCAGGGGGTAGTTTTTTCCCCATA" } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA (partial)" } ,
+                comment "aligned only 72 percent of the 16S ribosomal RNA" ,
+                location
+                  int {
+                    from 211 ,
+                    to 1364 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_62081" } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA (partial)" } ,
+                comment "aligned only 29 percent of the 16S ribosomal RNA" ,
+                location
+                  int {
+                    from 1831 ,
+                    to 2291 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_62081" } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00002" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.5 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 26 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 11 ,
+            day 26 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "k141_77523" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 1184 ,
+            seq-data
+              iupacna "CCGCTAACGCTGGCCGCTATCTATCCCAAATTTCCAATTCGGGGCACCAACAGAG
+AATGCAAAGGCGGCCCATCCGAAGAATATGATTGATTTTTTAAGATAGGAAAGAGCTCCACCTGTACAAGAGATGGGG
+GTGGAACCCTCCCTGTACCAGCTATATCTAATTGCTTTCCCCTTTCAATCAACGATTGATCTTAAGATGATAAATTAA
+TCAACCCCTTCCGTGTTATCGATTCTAGGTCTTCATGGCCGGTGGTGAGGCCTGCTTCGTTTCCAAGCGCTTTCGTAA
+AAACGAGGAAGAGGAGCGGGAGCCATCATTCTTTGGGGTCGGACAGGTAAATCCACGCTTACGGACATTCTGAAATAC
+ATCATGGGTACCACCCTATCCTGCACCATTGATATTACCCGACTCACAAACAGATTTGAGTTGCAAGTAATTAGCGGC
+AAATCTCTCATAGTGGCTCCGGACATTTCCCCCATCATCAATCACTCGCAGTGTTCCCTGCTAAGGAAGATGATATCC
+GCAGAAGCGGGGAGTCGAAGAATGGACCCTTGTTTGATAGAAAACCGGTGGGTTGCTTGTAGTGACGTCTTTAGAGAT
+GTGTCGTCCGCAGGACACGATTCAGGAGGCGGTTTCTCGCACCTGTTTAGACGACAGGTATCTGCTTGGGATCATGTT
+TTCTCAGGTTCATTCCGGATGTACAATTCCGTCTCAGTAGTTATATTTCATTCCAGTCGGAAGATGCAATCTGACGTA
+CGGGGTAGTAGAAATGACCAGGGAGTAGTGAGCCGGAGGAAACTTCGCAGTTCAACAACCGGCTCCGTGATTTACTAT
+GGGCACAGGCTTCCCGAGTCATTCAATCGTATGGTTCTTCATTATCCGCATATGGTCCTTTATTCCCGGGTGCTCATC
+TGGCTGCTTTTAGTCTAATGTTCCCGTTCAGTGGCCGTGGATATTGGCAAGAAAGAACTCATCGAATCGGGCAATCGA
+AAGTTGCTCCTGCTACCCAGCCGGGCTCTGAGTATTGTACAGGGACGTGCCTACGGGGTGGCTCATTCCCTTCTGGGC
+CACAACATGGGCGGCATTCTTCCGAATCATTGCAGTAGGATAATGGCTAGGAGGATTCGAAAAATTACGGCATCAAGC
+CAAAGTTCAGCTTTCCAACAGCTTAAAGCGCACGAGC" } } ,
+        seq {
+          id {
+            local
+              str "k141_77523_1" } ,
+          descr {
+            title "Photosystem I P700 chlorophyll a apoprotein A1 [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 186 ,
+            seq-data
+              ncbieaa "MGTTLSCTIDITRLTNRFELQVISGKSLIVAPDISPIINHSQCSLLRKMISAEAG
+SRRMDPCLIENRWVACSDVFRDVSSAGHDSGGGFSHLFRRQVSAWDHVFSGSFRMYNSVSVVIFHSSRKMQSDVRGSR
+NDQGVVSRRKLRSSTTGSVIYYGHRLPESFNRMVLHYPHMVLYSRVLIWLLLV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 4 ,
+                    data
+                      prot {
+                        name {
+                          "Photosystem I P700 chlorophyll a apoprotein A1" } ,
+                        ec {
+                          "1.97.1.12" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 185 ,
+                        id
+                          local
+                            str "k141_77523_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_77523_1" ,
+                location
+                  int {
+                    from 370 ,
+                    to 930 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_77523" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:HAMAP:MF_00458" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "psaA" ,
+                        locus-tag "P001_WA09_00003" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.5 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 26 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 11 ,
+            day 26 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "k141_83412" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 9474 ,
+            seq-data
+              iupacna "GCGATTATGCACTATCTGGATGGGAATCAATTCTAAGGTTTGGCTCTCGTGCTTA
+GGATAAGTCTGTCTGAGATATCTCCAATAACCCATGCTGGAGAGGCATCTGTATCAGATACGACCTCATGACTGCGTG
+AGTCCTGCTAATGAAATATGGCCAAGGGAGTATATGGAAGAGACATCCCCGGTGATTCCGGCTCGGTGAGACCTGTGC
+TGAACCGCTGGCATCATTCCCCCATCTTCTTCCTTTGAGAGAAAGATTGTATCATAAGAGAACAAAGGGGTCAAGCTG
+TTGCTGTTGGGAATGGGTAACGTGGATCCCGCCAATAAAGCTGTACCCTGATGTCGATGCGAATCAACGAGTCGAAGG
+CGAGCCTTTTCCTGATGCATCAGAGTATAGTAGTGCTAGTTACAAATCCTTCCCCGGTAGGATGGCAATGTACTACTA
+CGAAGTGGTTAACGGTTGTATGGGTTCACCCCCGGGAAAGAGGTGTTGGCCACAGGTAGCTTCGCTTCCTCCGGAGCA
+TGTCTCCGAAAAGTATAAGACTTTCGAATTTATTCTTTCCCTCAGCAAAACCAGTTATACTAGTATAACTAGATGTAC
+TTTCACTTTCCCAAGATCCGTAAGTTCAATGGGTAATGTCTTTGGTATGGGAAATACAAATCCATCTGTATCTTCTTT
+GCCCAGTTCCGCCCGTTCCTAACAATATTGAAATTCCCGTATTAGTGTCGAATCGAGCAGAGCGTGCATGCTAAAGAA
+GCACCTTTTTCTTTTTCCTCTTCCGATGCAGAACCTTACAGGATTAGACTGAGTAATAAGATTACGAATTTTAGGAAG
+TCGTATGTGATAGTAGGAATCTCTAGTTTCGATAGTATGTAGTCAGTTGATAACAGAATGGAGTCTCTCTCACTATTT
+TGGGAATAGTATGAGGGGAGGTTTATTCAGTCGTATCGGGATAGTGGGATCTAGTACCTCGACCATACGGGGTGGTAG
+GTACTTTCTGATCGGTAGGTTCTTACTCATCGGTGAGTCATCATTCGGAGTGGGAGTAGGGATATAACTCAGCGGTAG
+AGTGTCACCTTGACGTGGTGTGAGTCATCAGTTCGAGTCTGATTATCCCTAAACCCAGTCCAAGCGTTTATACCTGCT
+CCCTCGTAATTTGAATAATTTGAAGAGGCTTATGGGATTGACACAGAAGGGTAGGGATGGGTATACTGGGAGTGAGCC
+TTAGGCTAATACGAAGCGAATGGACCCAAGTCATGCCTTGGGGTGAGAGTGAGAGACGATTCCGAATAAGCTTCATCA
+ACGAATGAGTAAGCTATAAGTGGTGCAACTACGAATCTCATGGAGAGTTTGATCCTGGCTCAGGATGAACGCTGGCGG
+CATGCTTAACACATGCGAGTCGGACGGAAAGCATCCTAGTGGTGTTTTCAGTGGCGGACGGGTGAGTAACGCGTAAGA
+ACCTGCCCTTGGGAGGGGGACAACAGCTGGAAACGGCTGCTAATACCCCATAGGCTGAGGAGCGAAAAGGAGGAATCC
+GCCCAAGGAGGGGCTTGCGTCTGATTAGCTGGTTGGTGAGGCAATGGCTCACCAAGGCGACGATCAGTAGCTGGTCCG
+AGAGGATGATCAGCCACACTGGGACTGAGACACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTCCGCAAT
+GGGCGAAAGCCTGACGGAGCAATGCCGCGTGGAGGTAGAAGGCCCACGGGTCGTAAACTCCTTTTCCCGGAGAAGAAG
+CAGTGACGGTATCTGGGGAATAAGCATCGGCTAACTCTGTGCCAGCAGCCGCGGTAAGACAGAGGATGCAAGCGTTAT
+CCGGAATGATTGGGCGTAAAGCGTCTGTAGGTGGCTTCTCAAGTCCGCCGTCAAATCCCAGGGCTCAACCCTGGACGG
+GCGGTGGAAACTACTAAGCTGGAGTACGGTAGGGGCAGAGGGAATTTCCGGTGGAGCGGTGAAATGCGTAGAGATCGG
+AAGGAACACCAACGGCGAAAGCACTCTGCTGGGCCGACACTGACACTGAGAGACGAAAGCTAGGGGAGCGAATGGGAT
+TAGATACCCCAGTAGTCCTAGCCGTAAACGATGGATACTAAGCGCTGCGCGTATCGACCCGTGCAGTGCTGTAGCTAA
+CGCGTTAAGTATCCCGCCTGGGGAGTACGTTCGCAAGAATGAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGT
+GGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACCAGGGCTTGACATGCCGTGAATCCTCTTGAGAGAGGG
+GAGTGCCTTCGGGAACGCGGACACAGGTGGTGCATGGCTGTCGTCAGCTCGTGCCGTGAGGTGTTGGGTTAAGTCCCG
+CAACGAGCGCAACCCCCGTGTTTAGTTGCCATTATTCAGTTTGGAACCCTAAACAGACTGCCGGTGATAAGCCGGAGG
+AAGGTGGGGATGACGTCAAGTCAGCATGCCCCTTACGCCCTGGGCGACACACGTGCTACAATGGACGGGACAAAGGGT
+CGCGACCCCGCGAGGGCAAGCTAACCTCAAAAACCCGACCTCAGTTCGGATTGCAGGCTGCAACTCGCCTGCATGAAG
+CCGGAATCGCTAGTAATCGCCGGTCAGCCATACGGCGGTGAATCCGTTCCCGGGCCTTGTACACACCGCCCGTCACAC
+TATGGGAGCTGGCCATGCCCGAAGTCGTTACCTCAACCGCAAGGAGGGGGGTGCCGAAGGCAGGGCTAGTGACTGGAG
+TGAAGTCGTAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCTTTTCGGGGAGAGTTCATGCTTATTGGA
+CGTTCCGGTCTCACAATGCTTCACACCCGAGTTACACGCTCGGAGATGGGATTCTTTTGTCCCGACGGTGGAGTAAGA
+CCAAGTTCATGAGCTTATTATCCCAGGTCGGAACGAGCTGATAGTAGCCCATTCATCGACCATGTTGCCACCCCGATA
+GGGTGGGTGGCAACATGGTCAAGTAAATATGAGAGGTGGGGATAGGTTCTACTTCGCCCCCGGCACTGCAGGCCCCCG
+GCATGCACGACGGGCTATTAGCTCAGTTGGTAGAGCGCGCCCCTGATAATTGCGTCGTTGCGCTTGGGCTGTGAAGGC
+TCCCAGCCACATGGATAGTTCAATGTGCTCATCAGCGCCTGACCCGAAGATGCGGATCATCCAAGGAACGTTAGCATG
+GCGTACTCCTCCCGAATCAGGTACTGAGACCAAACCACTCTTCAGGAGGATGGATGGGGCGATTCAGGTGAGATACTA
+TGGGATTCAACTCCCTGTTCACTCGTGGGATCTGGGCGGTCCAGGGAGGACCAGTCTCGATGGCTCCTCTCTTCTCGA
+GAATCCATACATCCCTTATCAGTGTATGGGTGGCTATCTTCTGAGCACAGGTTGAAGTTCAGCCTAGATGTGAAAGAT
+GGAGCACCTAATAACGCATCTCCACAGACCAAGAACTACGAGATCACCCTTCTATTCCGGGGGTGACGGAGGGATCAT
+ACCATTCGAGCCTTCTTTCGCTTCTCCTGGAGGTCCAGAAGAAGCAGCAATCAATATTCTCCCTCCGGAGGGAACCTG
+AAGGAAGCCAAATTCCTCTCCGAAGGGCCCGGGAGATTGGACCTAGCCATAAGAAGAATGCTTGGTTCCTCGGTCTTC
+GACCCTCTCGGGCACCACGAACGGCCTCCGGATCGATGCAATGTGATGTCTTTATCTATCTCCCAACGGCGGGGGCAG
+GTTCGAAAAAGGATCTTAGAGTGTCCAGGGTTGGGCCAAGAGGGTCTCTTAACGCCTTCTTTTCCCTCCCCATCGAAG
+TCCTTCTCCAAAGACTTGCCATTGGCAAGGGAGAGGGAGAGGGAACAAGCACACTTGGAGAGCGCAGTACAACGGAGA
+GTTGTATGCTGCGTTCGGGAAGGATGAATCGCTCCTAAGGAAGAAACTATTGATTCTCCATCCCAATGGGATAATGTT
+GTAGGTGCGATGATTTACTTCACGGGCGAGGTCTCTGGTTCAAATCCAGGATAGCCCAACTGCGCCAGGGGGAATCCC
+GAAAGAAAGCGTTCATGCATGCTCCACTTGGCCCGGGCACGGGGGATATAGCTCAGTTGGTAGAGCTTCGCTTTTGCA
+ATTGGGTCGTTGCGCTTACGGGTTGGATGCCTAATTGTCTAGGCGGTAATGATAGTATCTCTCACCCAAACCGGTGGC
+TAACTCTTCCTCAGGAATGGGGAGAAGGACTGGAACATGCCACTGAAAAACTCTACTGAGACAAGGATGGGCTGTCGG
+AAATGTAGAGAGGGTAGGATGGGTAGTTGGTTAGATCCAGTGCGGATCGTACATGGGCGATAGTTGGAGTTGGCGGCT
+CTTCCAGGGTTACCTCATCCAGAATCCCTGGGGAAGAGGATCGAGTTGGCCCTTGCAAACAGCTTGATGCACTATCTC
+TCTTCAACCCCTAAAGCACGATGTGGCAGAAGGAACGAGAAGCCATGGACCGACCCCATCCCCTCCACCCCGTAGGAA
+CTACGAGATCGCCCCAGGGATGCCGAAGGCACCCGGGGGTCACAGACCGACCATATAAACTGATTCAAGAAGTGGAAT
+GCATTAGCTGTCTGCTCTGGTTGGCAGAAAGGGTCGGAGAAGGGCAACCACTCATTGTTAAGACCGAAGGGTCGGGCG
+GAAAGGAGGAAGAGTTCTTAGCTATTAGTTCTCCCGCAGCTCGGGAGTATCCAGCTGCAAGAATCTTAACCCGGTGCC
+TTTTGGGAAGAGTTGCTCTTCGGAGAGCACGGTACGATGAAAGTTGTAGGCTGTGTTCGGGGGGGAGTTATCGTCCAT
+CGCCGGCCTCTATGGCAGAATCAGTCAGAGAGGCCTGAGAGACGGTAGCTTACCCTGTGGCGAAAGTCAGCGGTTCGA
+ATCCGCTTGTCTCCAGCCCGTGATCTGATTCAATGCAATGGCACATGATAGGGATGAAATAATCTCGATTTCTAGTGG
+GCAAGCTGGCCCATGATCTTGTATTTATGGACGTTGATAAGATCCCCGTATTTAGCACCTCGGGATGGCATAGCCTTC
+AATGGCGAGGTTCAAACGAAGAAGGGCTTATGGTGGATACCTAGGCACCCAGAGACGAAGAAGGGCGTAGCAATCGAC
+GAAATGCTTCGGGGAGCTGAAAACAAGCATAGATCCGGAGATTCCCGAATAGGTTAACCTTTTGAACTGCTGCTGAAT
+TCACAGGCAGGCAAGAGACAACCTGGCGAACTGAAACATCTTAGTAGCCGGAGGAAGAGAAAGCAAAAGCGATTCCCG
+TAGTAGCGGCGAGCGAAATGGGAGTAGCCTAAACCGCGAAAACGGTGTTGTGGGGGAGCGATACAAGCTTTGTGCTGC
+TAGGCGAAGCGGTTGAGTCCCGCACCCCAGATGGTGAGAGTCCAGTAGCCGAAAGCATCACTGGCTCACGCTCTAACC
+CGAGTAGCATGGGGCACGTGGAATCCCGTGTGAATCAGCAAGGACCACCTTGCAAGGCTAAATACTCCTGGGTGACCG
+ATAGCGAAGTAGTACCGTGAGGGAAAGGTGAAAAGAACCCCCATCGGGGAGTGAAATAGAACATGAAACCGTAAGCTC
+CCAAGCAGTGGGAGGAGAATCGGATCTCTGACCGCGTGCCTGTTGAAGAATGAGCCGGCGACTTATAGGCAGTGGCCT
+GGTTAAGGGAACCCACCGGAGCCATAGCGAAAGCGAGTCTTCCCAGGGCAATTGTCACTGCTTATGGACCCGAACCTG
+GGTGATCTATCCATGACCAGGATGAAGCTTGGGTGAAACTAAGTGGAGGTCCGAACCGACTGATGTTGAAAAATCAGC
+GGATGAGTTGTGGTTAGGGGTGAAATGCCACTCGAACCCAGAGCTAGCTGGTTCTCCCCGAAATGCGTTGAGGCGCAG
+CAGTTGACTGGACTATCTAGGGGTAAAGCACTGTTTCGGTGCGGGCTGCGAAAGCGGTACCAAATCGAGGCAAACTCT
+GAATACTAGGTATGACCCCCAAATAACAGGGGGAAAGGGTCAACCAGTGAGACGATGGGGGATAAGCTTCATCGTCGA
+GAGGGGAACAGCCCAGATCACCAGCTAAGGCCCCTAAATGACCGCTCAGTGGTAAAGGAGGTAGGAGTGCAAAGACAG
+CCAGGAGGTTTGCCTAGAAGCAGCCACCCTTGAAAGAGTGCGTAATAGCTCACTGATCAAGCGCTCTTGCGCCGAAGA
+TGAACGGGACTAAGCGGTCTGCCGAAGCTGTGGGATGTCAAAATACATCGGTAGGGGAGCGTTCCGTATTAGGGAGAA
+GCACCAGCGTGAGCAGGTGTGGACGAAGCGGAAGCGAGAATGTCGGCTTGAGTAACGCAAACATTGGTGAGAATCCAA
+TGCCCCGAAAACCTAAGGGTTCCTCCGCAAGGTTCGTCCACGGAGGGTGAGTCAGGGCCTAAGATCAGGCCGAAAGGC
+GTAGTCGATGGACAACAGGTGAATATTCCTGTACTACCCCTTGTTGGTCCCGAGGGACGGAGGAGGCTAGGTTAGCCG
+AAAGATGGTTATCGGTTCAAGGACGCAAGGTTAGTGAACCTTCCCAAGGTAATTAAGGGGTAGAGAAAATGCCTCGAG
+CCAACGTCCGAGCACTAGGCGCTACGGCGCTGAAGTAACCCATGCCACACTCCCAAGAAAAGCTCGAACGACCTTCAA
+CGAGTGGGTACCTGTACCTGAAACCGACACAGGTGGGTAGGTAGAGAATACCTAGGGGCGCGAGACAACTCTCTCTAA
+GGAACTCGGCAAAATAGCCCCGTAACTTCGGGAGAAGGGGTGCCTCCTCACAAGGGAGGTCGCAGTGACCAGGCCCAG
+GCGACTGTTTACCAAAAACACAGGTCTCCGCAAAGTCGTAAGACCATGTATGGGGGCTGACGCCTGCCCAGTGCCGGA
+AGGTTAAGGAAGTCGGTGACCCGATGACGGGGAAGCCGGCGACCGAAGCCCCGGTGAACGGCGGCCGTAACTATAACG
+GTCCTAAGGTAGCGAAATTCCTTGTCGGGTAAGTTCCGACCCGCACGAAAGGCGTAACGATCTGGGCACTGTCTCGGA
+GAGAGACTCGGTGAAATAGACATGTCTGTGAAGATGCGGACTACCCGCACCTGGACAGAAAGACCCTATGAAGCTTTA
+CTGTTCCCTGGGATTGGCTTTGGGCTCCTCCTGCGTAGCTTAGGTGGGAGGCGAAGAAGGCCCCTTTCCGGGGGGGCT
+TGAGCCATCAGTGAAATACCACTCTAGAAGAGCTAGAATTCTAACCTTGTGTCAAGACTTACGGGCCAAGGGACAGTC
+TCAGGTAGACAGTTTCTATGGGGCGTAGGCCTCCCAAAAGGTAACGGAGGCGTGCAAAGGTTTCCTCAGGCTGGACGG
+AAATCAGCCTTCGAGTGCAAAGGCAGAAGGGAGCTTGACTGCAAGACCCACCGGTCGAGCAGGGACGAAAGTCGGCCT
+TAGTGATCCGACGGTGCCAAGTGGAAGGGCCGTCGCTCAACGGATAAAAGTTACTCTAGGGATAACAGGCTGATCTTC
+CCCAAGAGTTCACATCGACGGGAAGGTTTGGCACCTCGATGTCGGCTCTTCGCCACCTGGGGCGGTAGTACGTTCCAA
+GGGTTGGGCTGTTCGCCCATCAAAGCGGTACGTGAGCTGGGTTCAGAACGTCGTGAGACAGTTCGGTCCATATCCGGT
+GCGGGCGTTGGAGCATTGAGAGGACCTTTCCCTAGTACGAGAGGACCGGGAAGGACGCACCCCTGGTGTACCAGTTAT
+CGCGCCCACGGTAAACGCTGGGTAGCCAAGTGCGGAGCGGATAACTGCTGAAAGCATCTAAGTAGGAAGCCCACCCCA
+AGATGAGTGCTCCCCTATTCTTAAGGAGTCTTGAGAATCCAAGATAAGGTCACGGCAAGACGAGCCGTTTATCACCAC
+GATAGGTGCCAAGTGGAAGTGCAGTAATGTATGCAGCTGAGGCATCCTAACAGACCGAGAGATTTGAACCTCGTTCCT
+ACACGAACTGATTAATTCGATCAGACACTAGCCACCTAGTTGTTCGATTGTTCGACAACATCAACCTAAGAGCTCCGC
+CCTCTGCCTCTCCGTCCATCTAAGGGATGGAAGGCCGGGTCGGAGGAAGGTTCTCCGTCCGGAAGGTGCATCAAACGA
+AGGTGCACCCTCCGGAACCGGAGCCTCAAAATCACTAGTCAATATGCTTCTTTCTCATGCTTCTTCCTCGTTCATGGG
+TTGATATTCTGGTGTCTCAGGCGTGGGGGAACCACACCAATCCATCCCGAACTTGGTGGTGAAACTCTACTGCGGTGA
+CGATACTGTAGGGGAAGCCCTGCGGAAAAATAGCTCGACGCCAGGATAGAAAAAGAGTAGAAAAAAAAGGAAGGGTTG
+GGAGGTAGCTCCTGGGACGAATCCGGTGGAGACGGGGCCTGTAGCTCAGAGGATCAGAGCACGTGGCTACGAACCACG
+GTGTCGGGGGTTCGAATCCCTCCTCGCCCGCAATCAGCCCCGAAGGGACTTGATGGGAAAGAAGCAAGAAGAATTCTG
+ATTGGAAGCGCGGACACGAAGCCAAAGCTTTATAACTTGGTCTTCCACGAAGGTATAGTTCCTCCGCTGGAATGGGAT
+GATGCATGACTTGACTGTTCCGTACGGTACGTCTGGAACCAGTACCTATTCTACCTCTCGCAATTATTTACGGCCGTC
+GCCCGGGGTCCCAGTAGCAATAGAGGTTCCATTCATTATCAATCATTTCCGGGTAAAGAATTGACAGTCTTATCGGCT
+AGAAACAGGTTGAGCGAGTAGAAGCTCTCACCCCATTCATAATCTGGCAATGGCATCAGACCAAGAAGTGATAGATTC
+GCCTACCCCAGCTTATCAGTACTCCAGAGAGACCGTTGTTTCCACCTTGATATATACGGGTAGGGTTTATTAAATGCC
+GATTCCCGTCCTTGATGATCCGGGAGCAATGACAAGTAACTACCACTGAGAGTCAAAGTGAGCCTCCAGAAATATGTG
+AATTGGGTCTCCCCGGATAGGATTCGAACCTACGACCCATCGGTTAACAGCCGACTGCTCTACCGCTGAGCTACCGAG
+GAAAAATGCGGAGATCCCCTATTTGAAGAACGAGATTTTTTGAACCGCACCACAACTACTGTTCGAAGATCCAAAGTC
+TTCTTCGAAACCCCATGAACTTCGCGTACACCCCACCCTTTATTATAGGGTAGAGGGGTAGCGATGGCAATCTTCTCC
+ACTTTCCCGGGGGGAGCCCCTGGGTGGGGATCGACCATCACCACGATCCCACCCACTGGCCCCCCCTAAGGTTCGCAT
+TGATTAATCATCAATCATCGGTTTCCATTTTTACTCCGAGTGAAGATGAGGAGACTTCA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 86 } } ,
+                    comment "tRNA-Val(gac)" ,
+                    location
+                      int {
+                        from 1047 ,
+                        to 1120 ,
+                        strand plus ,
+                        id
+                          local
+                            str "k141_83412" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00005" } } } } ,
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      rna {
+                        type rRNA ,
+                        ext
+                          name "16S ribosomal RNA" } ,
+                    location
+                      int {
+                        from 1342 ,
+                        to 2837 ,
+                        strand plus ,
+                        id
+                          local
+                            str "k141_83412" } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00006" } } } } ,
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      rna {
+                        type rRNA ,
+                        ext
+                          name "23S ribosomal RNA" } ,
+                    location
+                      int {
+                        from 5136 ,
+                        to 8079 ,
+                        strand plus ,
+                        id
+                          local
+                            str "k141_83412" } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00011" } } } } ,
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 82 } } ,
+                    comment "tRNA-Arg(acg)" ,
+                    location
+                      int {
+                        from 8513 ,
+                        to 8587 ,
+                        strand plus ,
+                        id
+                          local
+                            str "k141_83412" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00012" } } } } ,
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 78 } } ,
+                    comment "tRNA-Asn(gtt)" ,
+                    location
+                      int {
+                        from 9108 ,
+                        to 9183 ,
+                        strand minus ,
+                        id
+                          local
+                            str "k141_83412" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00013" } } } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_83412_1" } ,
+          descr {
+            title "hypothetical protein P001_WA09_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 88 ,
+            seq-data
+              ncbieaa "MHQEKARLRLVDSHRHQGTALLAGSTLPIPNSNSLTPLFSYDTIFLSKEEDGGMM
+PAVQHRSHRAGITGDVSSIYSLGHISLAGLTQS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 87 ,
+                        id
+                          local
+                            str "k141_83412_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_83412_2" } ,
+          descr {
+            title "hypothetical protein P001_WA09_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 79 ,
+            seq-data
+              ncbieaa "MRIIQGTLAWRTPPESGTETKPLFRRMDGAIQVRYYGIQLPVHSWDLGGPGRTSL
+DGSSLLENPYIPYQCMGGYLLSTG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 78 ,
+                        id
+                          local
+                            str "k141_83412_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_83412_3" } ,
+          descr {
+            title "hypothetical protein P001_WA09_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 78 ,
+            seq-data
+              ncbieaa "MQCDVFIYLPTAGAGSKKDLRVSRVGPRGSLNAFFSLPIEVLLQRLAIGKGEGEG
+TSTLGERSTTESCMLRSGRMNRS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 77 ,
+                        id
+                          local
+                            str "k141_83412_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_83412_4" } ,
+          descr {
+            title "hypothetical protein P001_WA09_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 66 ,
+            seq-data
+              ncbieaa "MHAPLGPGTGDIAQLVELRFCNWVVALTGWMPNCLGGNDSISHPNRWLTLPQEWG
+EGLEHATEKLY" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 65 ,
+                        id
+                          local
+                            str "k141_83412_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_83412_5" } ,
+          descr {
+            title "hypothetical protein P001_WA09_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 43 ,
+            seq-data
+              ncbieaa "MDDNSPPNTAYNFHRTVLSEEQLFPKGTGLRFLQLDTPELREN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 42 ,
+                        id
+                          local
+                            str "k141_83412_5" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_83412_1" ,
+                location
+                  int {
+                    from 120 ,
+                    to 386 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_83412" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00004" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_83412_2" ,
+                location
+                  int {
+                    from 3224 ,
+                    to 3463 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_83412" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00007" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_83412_3" ,
+                location
+                  int {
+                    from 3756 ,
+                    to 3992 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_83412" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00008" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_83412_4" ,
+                location
+                  int {
+                    from 4125 ,
+                    to 4325 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_83412" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00009" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_83412_5" ,
+                location
+                  int {
+                    from 4759 ,
+                    to 4890 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_83412" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "P001_WA09_00010" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.5 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 26 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 11 ,
+            day 26 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "k141_60220" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5754 ,
+            seq-data
+              iupacna "GTGTGGGAGATATATCCTCCGCTCTCCGCCCTCCCCCCCTCCCCCCCCCCCCCCC
+ATTCGGTAAGGGAGGGTTGGTGAAGGGATTGGATATCGAGGAATAAGTTGATAATTCATTCGAGATTTGGATCAATCG
+TATACGAAACAGTATCCGTCACGGTATCAAGTTTATACCCCATCCCCCTACTCTTTCTCCCTCCCCTCCCTCCTCCTC
+CCCTTCCCTCTTTATCTCTCTCTTCCCCTCACAATACTTCGGGGGCTAATGAGACTATTTTGGTGAAGTTACTCCCCC
+TCGATTCTCGAGCGACTGGACCGAATACTCTAGTCCCTCTGGGGTTCCCTTCCTGATTGGTAACAACCGCTGCATTAT
+CATCGAATCGTACTATCATTCCATTGCTACGTTTCACTCCCTTACAAGTACGTACAGCTACTGCTCTAACTATTTCTG
+ACTTTTCCAAGGGCATATTAGGTACTGCTTCCTTGACCGTAGCGGTGATAATGTCACTAATACTTGCATATTTACGAT
+TACTAGTTCCTAGGACTCGAATGCGCATTAATTTTCGAGCTCCACTGTTGTCCGCTACATTTAAATAACTTTGGGGTT
+GAATCATTTCTCCTCAAACGTATGGGTATGTATATATATATATATTTATATCCCCGAGTGTGAGGATAATATTCCCGG
+ATACTGAGTAGGAATATCTTATTAGGTCCATTGAATATTTGGAGGAGTGTGGTAGGAATGGAGAGGGTAATATCCCTC
+CCGCAGCGCTCTCCAATCTTACTATGCTTATGACTACATATCTATAGATCTCGTGACGGTAACAGATTGAGTACGTAC
+GGGCATTTTATACGCAGCTATTCCCATAGCTGCTCGGGCAATACTCTCTGATACCCCACTTATTTCATAAAGTATCCG
+ACCCGGCTTAGTCACAGCAACCCAATATTCTGGAGATCCCTTTCCCGACCCCATGCGTGTTTCTGCAGGTCTCACAGT
+GACTGGTTTATCGGGAAATACACGTATCCATACCTTCCCACCGCGACGAATGTAACGAGTAATAGCTCTTCGTCCTGC
+TTCTATTTGTCCGGCCGTAACCCAAGCAGGTTCGAGTGCTTGAAGGGCGAATCTTCCGAAACAGATGGAATTACCCCG
+AGTAGATACTCCTTTCATTCTCCCTCTATGCTGTTTCCGAAATTTGATTCTTTTGGGGTCATGGTCGGTGACGGCCTA
+CCCCCATCCCACCTCCAATACAAAACCGGACATGAAAGTCTTCCTTCACCCGGCTCCTCATGAATAATATCCCGATCG
+AATAGATATATTTTCGGTAGGTTCCTACTCCCCCCTCCCTCCCTTCCGGAGGTACTAATTATTGGTTATCACACTGAA
+TGATTTGACTATTCCCACTCGATCAAACTATTCGATTAGAAATTCATGGGCGAATATTGACTCTATCGATGCACCCTC
+ATCGGATTAATCATTGGTTTATTCCGCCATCCCATCCATCGAATCGTAGGGATTGGTAATAATCCCACCAATTCGTAG
+ATTCCTTCGTTCCCATAACTCCAATTCGAACGTTTGGGTACCCTCCCTGCGGCGGGGCTCTCTCTCTTTTTTGCTCCC
+GGGGTCACGTCCACTGGTACTCCCTGACCCGAAGCTCCTTCCCATCGACAACCCCTTCCACCCGGGCTATCCTCTGCT
+TTATAACACCGCTTCCAGAGGACTAACCATACGCTCCTGTAAGAATAAATTGATCCCTTATTAGTACTTCCCGATACA
+CTTCCGCTTCACCGAGGAGAATTTGTCCCTCCATCGTGGGAGAGTTTTTCAATCTGATGCTGCTACGTTTCGTAGTCA
+TCCCACTGGATCCTATTCATACGGAGCAATGAGTTTTATTGCCTCGTCACGGACTGGAAGGATAAATTCATACCGAAT
+CCCCCAGTACTTGGAAGAGACCTCACCCTAACGAGTCGCACACCAAGCATGGCACTTATTCATTGAATGTTTAATATG
+ATACTTCTATGTAAGGATGGAATGGTAATGAGTCGTTAATCCCGCCATAATTTGAATACTCTGTTGCTTCATCGTGGG
+CATGAAACTGATTCATTCGTCACCCTGGAAAATCCAAACTTTTATACCTAATACTCCATAGATAGTTCGGGCTGGGTA
+GCAGCAATAATTAATGCGAGCTCGAATGGTTTGTGAGGGAACTCTACCCTCTCTGGCCCATTCGGCACGAGCAATTTC
+ATTTCCATCAAGACGTCCCGGTATTTGAATTTTAATTCCTTTACTATTCGTTCTTTCGGCCAGTTCAATAGCTTTTCC
+CATTGCTCTGCGAAAAGCAACCCGATTCTCCAGTTGTGGTGCAATATGCTCTGCCAGTATTTCCGGTTCCCCATAAGG
+TTTCTCAATCTCTTTGAGAGTTAGATGAAGTTTTTGATCCTTATGATTCAACACATTACGTATATTCGCTCTTAATCG
+TTCAATCCCCAGACCATGATCTTCCATCAACAGACCCGGAAAGCCCGTATGTATTTCGACCCGAATCAGATCCGTCTT
+TCTCTGAATCTCGATACGTGCGATTCCTCCGTAATTGGATGAATTTCTTACACTTTCTCGCACATATTTATCGATACA
+ATCACGTATTCTCCTATCTTCTGTGATAGATTTTGAATAATCTTTTGGCCGCGCGAACCAGTGGGAACAATGATTCTG
+AGTCGCACCAAGTCGAAAACCAAGTGGATGGATTTTCTGTCCCATACATCTCTTCCTTTTTAATAGACTACCGTTCAA
+TTACCAAATCTACCTGAAAGTACCGCTATTTAAATTTCGCTTTCATCGCAATTGTTATGTGACAGGTAGGTTTGCGTA
+TTGGGTAGGCACGTCCTCGAGCTCTGGGGCGGAATCTCTTAGATGCGGAACCCTCATCTACTTTAGCCTCGCTGATAA
+AGATATTAGCTTTCCCTAATCCCGAATTATGACTAGCATTTGCAGCTGCAGAAGATACTAATTGCAGTACCGGATAAC
+ATGCCCGATAGGGCATGAATTCCAGTAGTATCAGCGCTTCCTCGTACGAACGACCACGAATTTGATCGATCACTCTGC
+GTACTTTATAGGCTGATGCGTCGACATATTTAGCCAAAGCTCGGACTTCTTTCTTCGAATCGTCATTAGTTTCCATTG
+AATATTACTTCCCGATTGGTTAACGGCGAGATTTTTTATCACTTTTTGCATGCCCCCGAAAATTACGAGTGGGTGCAA
+ATTCTCCCAGTTTGTGCCCTACCATACGATCCGTTATATAAATGGGTAAATGTTCCCGCCCGTTATAAACAGCGATTG
+TATGACCGATCATTGTCGGAACTATCGCAGAGGCACGGGACCAAGTTACTATTACTCCCCTCTCCCTCTTCGTATTGA
+GACTCTCTATTTTTCTTAATAAATGATTGGCTACAAAGGGACCTTTTTCCAATGAACGTGCCACGGTGAATCACCCCC
+GTTTATTACTCCCGTTTTTTCAGTTCCTCCTACGACGACGAAGAATGAATATACCGCTGTATTTGGTGATTCTTCGAC
+TTCTTCCGCCGAGTGCGGTACGACCCCAGGGAGTCAATGGTTTTTCCCTACCGATCGGGGCCCTGCCTTCCCCACCCC
+CATGAGGATGATCCACGGGATTCATAGCCACGCCCCTTACATGAGGACGTTTACCCAGCCAGCGTCTAGATCCAGCTT
+TTCCTAAGGTTCGATTATTGGCATCAACGTTTCCCACTTGCCCAATCGTTGCTGAGCAATCCTGAGGAATTAAACGAA
+CTTCTCCAGATGGTAATCTTACGGTAGCCAATCGACCTTCCTTGGCGATAGTTTTTGCTACAGTACCAGCGGCTCTAA
+CTAATTGTCCACCCTTACCAGGCGTTAATTCTACGTTATGCACAGATGTTCCCAAAGGCATTTTGGTTGAAGTGGACC
+TTTTCTTTTTCTTCCTTCCACAGATAGTAAAAAGCCCCTTCCCAAACTGTACAAGCCTCTCTCAGGGCATACAGCTTT
+CCGGATGTATGGGATGGTATCCGTGCCAGGAACCACTCGTAAGAATTGGTACTGGTACCTAAGGGTCAATCCCTGAAT
+CACCCGATCCCTATCCTCGATATCCTAGTTTTTCTCACCGGCATCTGGCTTATGCTCTTTCCACTTAGCAACAGATTC
+AATGACTTTATCAATCCACGTTAACACTTTATTATGTTTTTGGATAACTTAGGGGGCATACTTAACATTCATATTCCC
+CATTCAAAGGGTGAATTATCACAGTACAGCTTCAAATTCGTCTCTGACCACCGAATCGAATGTGAATAATTCGTGTTT
+CATTCCTTGCCAAGCAATTAATGACCCTACTTAGTCCTGCTTATGCTTGAGACAATCCAGTCTTCTCCATATTATCAT
+ATCTTTGGAGCCAATGGATATTATTCGGCTCAATCACCCGCTACTGTTCCTCTTCAGTTTCCCTCCAAGGTGAAATCT
+TTTGAAATTGGATTAGTGATAGATTTACAGGCTCCGCCTCAAGCCCGATCGGTTCTTTCCGATCGCGTGGATTGATAA
+TTCAAATCGCACTCAAAGGTAGGGCATTTCCACTCGAAATAGGTGCTTCAGAACTGGAAACAATAGTATCTCCGATAC
+CTAATCCTCTGGGATGTAGTATGTATCTTTCCTCACCATCCCCATAATTCACGAGGCATATGCATGAATTACGATTGG
+GGTCGTATTCGGTGGTTACAATTTTTCCGGGAACATCTTCCTTGTCCCGTCGAAAATCGATCCGACGATATGGACGTT
+TGTGACCCCCCCCCCTGTGTCTACTGGTGATAATCCCTCTATTATTACGTCCCCTTTTGGAATGTCTACCCGAGGTTA
+ATTTCTTCCGGGGTTTGGATCTAACTATCTCGTCAAAACTTAATACGGATCGATTGCGTGTACCCGGGGTGTAAGCTC
+CATATAAGCGGATGGCCATATTCTTATCGGAAATAATCGGTAGTATTTACTCACTCAGAAATAGTGGAATAGAATAAC
+CGGGTTGGGGTGTAATGATCATTCTTTTACAATTTGACGCGGTTTCCGTTAGTCGTCTTCCTCGTCCCTCCCCCGGGA
+GTCGGTGACTATTCATAGATTTCACTCTGACACTGAAGAATCTTTCGATCCAATTCTTTATTTCAGTTTTACTCGATC
+CCGGACCTACGTCGGAGGTGTATTGGTTATTTCGCAATAATCGAATCGTTTTTTCCGTAAGAACTTGGTTCTTTATCC
+CATTCATGAACTTTTCATCTCCCCTCCTACCCCTCTTTCCAGAAATTGAAAGTAATCCTACTCCAACAAATACTAACA
+ATTCTGGCAGGTTCCGTATAGTTACCTACCTGGACCCCTACTCTTGGATCCCCAGGCCGAACCCACCGGTCATTCTTA
+CTAAATATTATCCCCTTAATCTTTCGTGCATCCAACAGGAGTTGAACCTGTGAATTCGCCGATTATGAGTCGGGTGCT
+TTAACCGTTCAGCCATGGATGCTGCATGATTCGGAGAATTATACCCTCACACGGAATATTGCATCTTACACTACCGGT
+GGGATGGGACGAGACACTGAGCGATTATGCACTATCTGGATGGGAATCAATTCTAAGGTTTGGCTCTCGTGCTTAGGA
+TAAGTCTGTCTGAGATATCTCCAATAACCCATGCTGGAGAGGCATCTGTATCAGATACGACCTCATGACTGCGTGAGT
+CCTGC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      rna {
+                        type tRNA ,
+                        ext
+                          tRNA {
+                            aa
+                              ncbieaa 77 } } ,
+                    comment "tRNA-Met(cat)" ,
+                    location
+                      int {
+                        from 5462 ,
+                        to 5536 ,
+                        strand minus ,
+                        id
+                          local
+                            str "k141_60220" } ,
+                    qual {
+                      {
+                        qual "inference" ,
+                        val "COORDINATES: profile:Aragorn:001002" } } ,
+                    xref {
+                      {
+                        data
+                          gene {
+                            locus-tag "P001_WA09_00021" } } } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_1" } ,
+          descr {
+            title "ribosomal protein L14 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 122 ,
+            seq-data
+              ncbieaa "MIQPQSYLNVADNSGARKLMRIRVLGTSNRKYASISDIITATVKEAVPNMPLEKS
+EIVRAVAVRTCKGVKRSNGMIVRFDDNAAVVTNQEGNPRGTRVFGPVARESRGSNFTKIVSLAPEVL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein L14" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 121 ,
+                        id
+                          local
+                            str "k141_60220_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_2" } ,
+          descr {
+            title "ribosomal protein L16 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 124 ,
+            seq-data
+              ncbieaa "MKGVSTRGNSICFGRFALQALEPAWVTAGQIEAGRRAITRYIRRGGKVWIRVFPD
+KPVTVRPAETRMGSGKGSPEYWVAVTKPGRILYEISGVSESIARAAMGIAAYKMPVRTQSVTVTRSIDM" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein L16" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 123 ,
+                        id
+                          local
+                            str "k141_60220_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_3" } ,
+          descr {
+            title "ribosomal protein S3 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 218 ,
+            seq-data
+              ncbieaa "MGQKIHPLGFRLGATQNHCSHWFARPKDYSKSITEDRRIRDCIDKYVRESVRNSS
+NYGGIARIEIQRKTDLIRVEIHTGFPGLLMEDHGLGIERLRANIRNVLNHKDQKLHLTLKEIEKPYGEPEILAEHIAP
+QLENRVAFRRAMGKAIELAERTNSKGIKIQIPGRLDGNEIARAEWAREGRVPSQTIRARINYCCYPARTIYGVLGIKV
+WIFQGDE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein S3" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 217 ,
+                        id
+                          local
+                            str "k141_60220_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_4" } ,
+          descr {
+            title "ribosomal protein L22 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 120 ,
+            seq-data
+              ncbieaa "METNDDSKKEVRALAKYVDASAYKVRRVIDQIRGRSYEEALILLEFMPYRACYPV
+LQLVSSAAANASHNSGLGKANIFISEAKVDEGSASKRFRPRARGRAYPIRKPTCHITIAMKAKFK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 31 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein L22" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 119 ,
+                        id
+                          local
+                            str "k141_60220_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_5" } ,
+          descr {
+            title "ribosomal protein S19 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 92 ,
+            seq-data
+              ncbieaa "MARSLEKGPFVANHLLRKIESLNTKRERGVIVTWSRASAIVPTMIGHTIAVYNGR
+EHLPIYITDRMVGHKLGEFAPTRNFRGHAKSDKKSRR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 32 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein S19" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 91 ,
+                        id
+                          local
+                            str "k141_60220_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_6" } ,
+          descr {
+            title "ribosomal protein L2 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 143 ,
+            seq-data
+              ncbieaa "MPLGTSVHNVELTPGKGGQLVRAAGTVAKTIAKEGRLATVRLPSGEVRLIPQDCS
+ATIGQVGNVDANNRTLGKAGSRRWLGKRPHVRGVAMNPVDHPHGGGEGRAPIGREKPLTPWGRTALGGRSRRITKYSG
+IFILRRRRRN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 33 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein L2" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 142 ,
+                        id
+                          local
+                            str "k141_60220_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "k141_60220_7" } ,
+          descr {
+            title "ribosomal protein L2 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 135 ,
+            seq-data
+              ncbieaa "MAIRLYGAYTPGTRNRSVLSFDEIVRSKPRKKLTSGRHSKRGRNNRGIITSRHRG
+GGHKRPYRRIDFRRDKEDVPGKIVTTEYDPNRNSCICLVNYGDGEERYILHPRGLGIGDTIVSSSEAPISSGNALPLS
+AI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 34 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein L2" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 134 ,
+                        id
+                          local
+                            str "k141_60220_7" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 20 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_1" ,
+                location
+                  int {
+                    from 239 ,
+                    to 607 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19586.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rpl14" ,
+                        locus-tag "P001_WA09_00014" } } } } ,
+              {
+                id
+                  local
+                    id 21 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_2" ,
+                location
+                  int {
+                    from 790 ,
+                    to 1164 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19582.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rpl16" ,
+                        locus-tag "P001_WA09_00015" } } } } ,
+              {
+                id
+                  local
+                    id 22 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_3" ,
+                location
+                  int {
+                    from 2095 ,
+                    to 2751 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19571.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rps3" ,
+                        locus-tag "P001_WA09_00016" } } } } ,
+              {
+                id
+                  local
+                    id 23 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_4" ,
+                location
+                  int {
+                    from 2810 ,
+                    to 3172 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19581.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rpl22" ,
+                        locus-tag "P001_WA09_00017" } } } } ,
+              {
+                id
+                  local
+                    id 24 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_5" ,
+                location
+                  int {
+                    from 3194 ,
+                    to 3472 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19597.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rps19" ,
+                        locus-tag "P001_WA09_00018" } } } } ,
+              {
+                id
+                  local
+                    id 25 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_6" ,
+                location
+                  int {
+                    from 3506 ,
+                    to 3937 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19567.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rpl2_1" ,
+                        locus-tag "P001_WA09_00019" } } } } ,
+              {
+                id
+                  local
+                    id 26 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60220_7" ,
+                location
+                  int {
+                    from 4580 ,
+                    to 4987 ,
+                    strand minus ,
+                    id
+                      local
+                        str "k141_60220" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19567.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rpl2_2" ,
+                        locus-tag "P001_WA09_00020" } } } } } } } } ,
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.5 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 11 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 26 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 11 ,
+            day 26 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "k141_60292" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 1554 ,
+            seq-data
+              iupacna "GCAGGACTCACGCAGTCATGAGGTCGTATCTGATACAGATGCCTCTCCAGCATGG
+GTTATTGGAGATATCTCAGACAGACTTATCCTAAGCACGAGAGCCAAACCTTAGAATTGATTCCCATCCAGATAGTGC
+ATAATCGCATGGATAAGCTTACACCAACCCGTCAATTGTCGGAGGATTCAATCTTCCAGCGGAATAGTGAGTAATTAT
+TGGTGGAGGCAATGTTACAACTACCTCGAACAGATCCCTCTTCCTTCTCTTCCTTACCAGCGAGGGAGGGAGGGAATA
+ATAATTAAAATCCGTTCAGGATCGAATAGATCCAATTCTTAGACGCAGAAGGGAGAGTTGTTCGAACTGCTCAAGCAT
+TCGTTTGGTACCCGTTCGTTTCCTTACTATTGGATCGAAGTATCCGAATAAGTTACTAATCGTCATTTGTATTATCAA
+TGAGAGGAAACGGACGAGATAGTATTTATCCTCCGTTCCAATCGAACGAGGAGCCGTATGGGGTGAAAGTACCATGTA
+CGGTTCTGTAGAGCGGCGATAGGGGCGACTCGTTCGTCGACTTTGCCACCACGACACCCAAAAAACCCAACTCCGCCT
+TACGTAAAGTCGCCAGGGTCCGATTAACCTCTGGATTCGAAATCACAGCTTACATACCAGGTATTGGCCACAATTCAC
+AGGAACATTCAGTAGTTTTAGTAAGGGGTGGAAGGGTCAAAGACTTACCCGGTGTTAGATACCATATTGTTCGGGGAA
+CTCCAGATGCTGTAGGGGTGAGGGATCGCAAGCAAGGTCGTTCCAGATACGGTGCGAAAAGGCCAAAATGAATTGTTC
+CTACTGAATCCTGGGGAAGGGGGGAAGGGGAGGAGGAAGGTAATAGGAGGAAAAGGAAGGGAGAGGGGAATATCGATA
+ATCAGTGAGGGTGAAAAGGGAGGAATCCTTCCGAATCAATGTCACGTCGAAGCAATGCAGGGGGAAGAACTGCAGAAT
+CGGATCCAATTTATCGTAATCGTTCGGTTAATATGTTGGTCAACCGTATCCTAAGGGACGGCAAGAAATCATTAGCTT
+ATGGGATTCTTTATCGAGCCATGGAACAAATCAAGCGAACAACGGGGAAGAATCCATTGTCCGTTCTACGACAAGCAA
+TACGCGGAGTAACCCCCAATGTAACGGTGAGGGCGAGACGTATCGGTGGATCAACCTACCAAGCCCCTGCGGAAATAA
+TGCCTGCGCAAGGAAAAGCACTTGCTGTTCGATGGATATTGGGAGCATCGCGGAAACGTTCCGGACGAGATATGGCTT
+CGAAATCAGGCTATGAATTAATGGATGCTGCCAGAAATAGTGGCAGTGCCATACGCAGAAGAGAAGAAACTCACAAAG
+TAGCAGAAGCTAATAGAGCTTTTGCACATTTCCGTTAATTACCAGATTCGACCAGGTAATGTCTTGCAAGATTTACCC
+GGTCGAATCAATGGTATATATACATACACAGGGAGAAGGGGGTGGGGACGTAGGAAAGGGAAGGGGAGGGGGGGGGGG
+GGGGGGGGTATAATTTG" } } ,
+        seq {
+          id {
+            local
+              str "k141_60292_1" } ,
+          descr {
+            title "ribosomal protein S7 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 155 ,
+            seq-data
+              ncbieaa "MSRRSNAGGRTAESDPIYRNRSVNMLVNRILRDGKKSLAYGILYRAMEQIKRTTG
+KNPLSVLRQAIRGVTPNVTVRARRIGGSTYQAPAEIMPAQGKALAVRWILGASRKRSGRDMASKSGYELMDAARNSGS
+AIRRREETHKVAEANRAFAHFR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 36 ,
+                    data
+                      prot {
+                        name {
+                          "ribosomal protein S7" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 154 ,
+                        id
+                          local
+                            str "k141_60292_1" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 35 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "k141_60292_1" ,
+                location
+                  int {
+                    from 951 ,
+                    to 1418 ,
+                    strand plus ,
+                    id
+                      local
+                        str "k141_60292" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:vaccinium.gb:QST19580.1" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "rps7" ,
+                        locus-tag "P001_WA09_00022" } } } } } } } } } }

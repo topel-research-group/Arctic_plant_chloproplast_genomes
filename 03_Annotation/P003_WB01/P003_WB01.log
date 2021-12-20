@@ -1,0 +1,184 @@
+[16:58:09] This is prokka 1.14.5
+[16:58:09] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:58:09] Homepage is https://github.com/tseemann/prokka
+[16:58:09] Local time is Fri Nov 26 16:58:09 2021
+[16:58:09] You are ruud
+[16:58:09] Operating system is linux
+[16:58:09] You have BioPerl 1.7.8
+[16:58:09] System has 40 cores.
+[16:58:09] Will use maximum of 40 cores.
+[16:58:09] Annotating as >>> Bacteria <<<
+[16:58:09] Creating new output folder: P003_WB01
+[16:58:09] Running: mkdir -p P003_WB01
+[16:58:09] Using filename prefix: P003_WB01.XXX
+[16:58:09] Setting HMMER_NCPU=1
+[16:58:09] Writing log to: P003_WB01/P003_WB01.log
+[16:58:09] Command: /usr/local/packages/prokka-1.14.5/bin/prokka --cpus 40 --prefix P003_WB01 --Kingdom Bacteria --locustag P003_WB01 --proteins vaccinium.gb ../02_Blast/chloroplast_contigs_rapid_genomics_run2/P003_WB01_chloroplast_contigs.fa
+[16:58:09] Appending to PATH: /home/local/packages/prokka-1.14.5/bin/../binaries/linux
+[16:58:09] Appending to PATH: /home/local/packages/prokka-1.14.5/bin/../binaries/linux/../common
+[16:58:09] Appending to PATH: /home/local/packages/prokka-1.14.5/bin
+[16:58:09] Looking for 'aragorn' - found /usr/local/packages/Anaconda3-2019.10/bin/aragorn
+[16:58:09] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[16:58:09] Looking for 'barrnap' - found /usr/local/packages/Anaconda3-2019.10/bin/barrnap
+[16:58:09] Determined barrnap version is 000009 from 'barrnap 0.9'
+[16:58:09] Looking for 'blastp' - found /usr/local/packages/Anaconda3-2019.10/bin/blastp
+[16:58:10] Determined blastp version is 002011 from 'blastp: 2.11.0+'
+[16:58:10] Looking for 'cmpress' - found /usr/local/packages/Anaconda3-2019.10/bin/cmpress
+[16:58:10] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[16:58:10] Looking for 'cmscan' - found /usr/local/packages/Anaconda3-2019.10/bin/cmscan
+[16:58:10] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[16:58:10] Looking for 'egrep' - found /bin/egrep
+[16:58:10] Looking for 'find' - found /bin/find
+[16:58:10] Looking for 'grep' - found /bin/grep
+[16:58:10] Looking for 'hmmpress' - found /usr/local/packages/Anaconda3-2019.10/bin/hmmpress
+[16:58:10] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:58:10] Looking for 'hmmscan' - found /usr/local/packages/Anaconda3-2019.10/bin/hmmscan
+[16:58:10] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:58:10] Looking for 'java' - found /usr/local/packages/jdk1.8.0_191/bin/java
+[16:58:10] Looking for 'makeblastdb' - found /usr/local/packages/Anaconda3-2019.10/bin/makeblastdb
+[16:58:11] Determined makeblastdb version is 002011 from 'makeblastdb: 2.11.0+'
+[16:58:11] Looking for 'minced' - found /usr/local/packages/Anaconda3-2019.10/bin/minced
+[16:58:11] Determined minced version is 004002 from 'minced 0.4.2'
+[16:58:11] Looking for 'parallel' - found /usr/local/packages/Anaconda3-2019.10/bin/parallel
+[16:58:11] Determined parallel version is 20210822 from 'GNU parallel 20210822'
+[16:58:11] Looking for 'prodigal' - found /usr/local/packages/Anaconda3-2019.10/bin/prodigal
+[16:58:11] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[16:58:11] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/packages/prokka-1.14.5/bin/prokka-genbank_to_fasta_db
+[16:58:11] Looking for 'sed' - found /bin/sed
+[16:58:11] Looking for 'tbl2asn' - found /usr/local/packages/Anaconda3-2019.10/bin/tbl2asn
+[16:58:12] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[16:58:12] Using genetic code table 11.
+[16:58:12] Loading and checking input file: ../02_Blast/chloroplast_contigs_rapid_genomics_run2/P003_WB01_chloroplast_contigs.fa
+[16:58:12] Wrote 3 contigs totalling 126898 bp.
+[16:58:12] Predicting tRNAs and tmRNAs
+[16:58:12] Running: aragorn -l -gc11  -w P003_WB01\/P003_WB01\.fna
+[16:58:12] 1 tRNA-Asn [891,964] 34 (gtt)
+[16:58:12] 2 tRNA-Arg c[1440,1514] 35 (acg)
+[16:58:12] 3 tRNA-Val c[9097,9168] 33 (gac)
+[16:58:12] 4 tRNA-Leu [15382,15464] 35 (caa)
+[16:58:12] 5 tRNA-Met [22673,22747] 34 (cat)
+[16:58:12] 1 tRNA-Leu c[14078,14157] 35 (tag)
+[16:58:12] 1 tRNA-His c[146,220] 35 (gtg)
+[16:58:12] 2 tRNA-Gln c[7289,7360] 33 (ttg)
+[16:58:12] 3 tRNA-Ser c[8552,8639] 35 (gct)
+[16:58:12] 4 tRNA-Cys [9391,9462] 33 (gca)
+[16:58:12] 5 tRNA-Asp c[11612,11688] 36 (gtc)
+[16:58:12] 6 tRNA-Tyr c[11768,11854] 36 (gta)
+[16:58:12] 7 tRNA-Glu c[12052,12123] 34 (ttc)
+[16:58:12] 8 tRNA-Arg c[30032,30103] 34 (tct)
+[16:58:12] 9 tRNA-Ser c[35218,35300] 35 (tga)
+[16:58:12] 10 tRNA-Gly [36119,36190] 33 (gcc)
+[16:58:12] 11 tRNA-Met c[36392,36465] 35 (cat)
+[16:58:12] 12 tRNA-Ser [45106,45194] 36 (gga)
+[16:58:12] 13 tRNA-Thr c[46470,46544] 35 (tgt)
+[16:58:12] 14 tRNA-Phe [47975,48048] 34 (gaa)
+[16:58:12] 15 tRNA-Met [51995,52067] 34 (cat)
+[16:58:12] 16 tRNA-Trp c[65600,65673] 35 (cca)
+[16:58:12] 17 tRNA-Pro c[65854,65928] 35 (tgg)
+[16:58:12] Found 23 tRNAs
+[16:58:12] Predicting Ribosomal RNAs
+[16:58:12] Running Barrnap with 40 threads
+[16:58:13] 1 k141_114931 2125 23S ribosomal RNA
+[16:58:13] 2 k141_114931 7385 16S ribosomal RNA
+[16:58:13] Found 2 rRNAs
+[16:58:13] Skipping ncRNA search, enable with --rfam if desired.
+[16:58:13] Total of 25 tRNA + rRNA features
+[16:58:13] Searching for CRISPR repeats
+[16:58:13] Found 0 CRISPRs
+[16:58:13] Predicting coding sequences
+[16:58:13] Contigs total 126898 bp, so using single mode
+[16:58:13] Running: prodigal -i P003_WB01\/P003_WB01\.fna -c -m -g 11 -p single -f sco -q
+[16:58:13] Excluding CDS which overlaps existing RNA (rRNA) at k141_114931:2072..2467 on + strand
+[16:58:13] Excluding CDS which overlaps existing RNA (rRNA) at k141_114931:2506..2682 on + strand
+[16:58:13] Excluding CDS which overlaps existing RNA (rRNA) at k141_114931:7344..7631 on + strand
+[16:58:13] Excluding CDS which overlaps existing RNA (rRNA) at k141_114931:8264..8413 on - strand
+[16:58:13] Excluding CDS which overlaps existing RNA (rRNA) at k141_114931:8824..9021 on - strand
+[16:58:13] Excluding CDS which overlaps existing RNA (tRNA) at k141_11011:12002..12388 on - strand
+[16:58:13] Excluding CDS which overlaps existing RNA (tRNA) at k141_11011:45121..45351 on + strand
+[16:58:13] Found 86 CDS
+[16:58:13] Connecting features back to sequences
+[16:58:13] Not using genus-specific database. Try --usegenus to enable it.
+[16:58:13] Preparing user-supplied primary BLAST annotation source: vaccinium.gb
+[16:58:13] Guessed source was in genbank format.
+[16:58:13] Converting genbank 'vaccinium.gb' into Prokka FASTA 'P003_WB01/proteins.faa'
+[16:58:13] Running: prokka-genbank_to_fasta_db --format genbank vaccinium\.gb > P003_WB01\/proteins\.faa 2> /dev/null
+[16:58:14] Running: makeblastdb -dbtype prot -in P003_WB01\/proteins\.faa -out P003_WB01\/proteins -logfile /dev/null
+[16:58:15] Using /inference source as 'vaccinium.gb'
+[16:58:15] Annotating CDS, please be patient.
+[16:58:15] Will use 40 CPUs for similarity searching.
+[16:58:15] There are still 86 unannotated CDS left (started with 86)
+[16:58:15] Will use blast to search against P003_WB01/proteins with 40 CPUs
+[16:58:15] Running: cat P003_WB01\/P003_WB01\.proteins\.tmp\.18443\.faa | parallel --gnu --plain -j 40 --block 287 --recstart '>' --pipe blastp -query - -db P003_WB01/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > P003_WB01\/P003_WB01\.proteins\.tmp\.18443\.blast 2> /dev/null
+[16:58:16] Deleting unwanted file: P003_WB01/P003_WB01.proteins.tmp.18443.faa
+[16:58:16] Deleting unwanted file: P003_WB01/P003_WB01.proteins.tmp.18443.blast
+[16:58:16] There are still 22 unannotated CDS left (started with 86)
+[16:58:16] Will use blast to search against /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/IS with 40 CPUs
+[16:58:16] Running: cat P003_WB01\/P003_WB01\.IS\.tmp\.18443\.faa | parallel --gnu --plain -j 40 --block 73 --recstart '>' --pipe blastp -query - -db /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > P003_WB01\/P003_WB01\.IS\.tmp\.18443\.blast 2> /dev/null
+[16:58:18] Deleting unwanted file: P003_WB01/P003_WB01.IS.tmp.18443.faa
+[16:58:18] Deleting unwanted file: P003_WB01/P003_WB01.IS.tmp.18443.blast
+[16:58:18] There are still 22 unannotated CDS left (started with 86)
+[16:58:18] Will use blast to search against /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/AMR with 40 CPUs
+[16:58:18] Running: cat P003_WB01\/P003_WB01\.AMR\.tmp\.18443\.faa | parallel --gnu --plain -j 40 --block 73 --recstart '>' --pipe blastp -query - -db /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > P003_WB01\/P003_WB01\.AMR\.tmp\.18443\.blast 2> /dev/null
+[16:58:19] Deleting unwanted file: P003_WB01/P003_WB01.AMR.tmp.18443.faa
+[16:58:19] Deleting unwanted file: P003_WB01/P003_WB01.AMR.tmp.18443.blast
+[16:58:19] There are still 22 unannotated CDS left (started with 86)
+[16:58:19] Will use blast to search against /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/sprot with 40 CPUs
+[16:58:19] Running: cat P003_WB01\/P003_WB01\.sprot\.tmp\.18443\.faa | parallel --gnu --plain -j 40 --block 73 --recstart '>' --pipe blastp -query - -db /home/local/packages/prokka-1.14.5/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > P003_WB01\/P003_WB01\.sprot\.tmp\.18443\.blast 2> /dev/null
+[16:58:21] Deleting unwanted file: P003_WB01/P003_WB01.sprot.tmp.18443.faa
+[16:58:21] Deleting unwanted file: P003_WB01/P003_WB01.sprot.tmp.18443.blast
+[16:58:21] There are still 18 unannotated CDS left (started with 86)
+[16:58:21] Will use hmmer3 to search against /home/local/packages/prokka-1.14.5/db/hmm/HAMAP.hmm with 40 CPUs
+[16:58:21] Running: cat P003_WB01\/P003_WB01\.HAMAP\.hmm\.tmp\.18443\.faa | parallel --gnu --plain -j 40 --block 66 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/local/packages/prokka-1.14.5/db/hmm/HAMAP.hmm /dev/stdin > P003_WB01\/P003_WB01\.HAMAP\.hmm\.tmp\.18443\.hmmer3 2> /dev/null
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.HAMAP.hmm.tmp.18443.faa
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.HAMAP.hmm.tmp.18443.hmmer3
+[16:58:23] Deleting unwanted file: P003_WB01/proteins.psq
+[16:58:23] Deleting unwanted file: P003_WB01/proteins.phr
+[16:58:23] Deleting unwanted file: P003_WB01/proteins.pin
+[16:58:23] Labelling remaining 16 proteins as 'hypothetical protein'
+[16:58:23] Possible /pseudo 'NADH-plastoquinone oxidoreductase subunit 2' at k141_114931 position 14017
+[16:58:23] Possible /pseudo 'ribosomal protein L2' at k141_114931 position 24204
+[16:58:23] Possible /pseudo 'NADH-plastoquinone oxidoreductase subunit 1' at k141_103372 position 8147
+[16:58:23] Possible /pseudo 'RNA polymerase beta' subunit' at k141_11011 position 17656
+[16:58:23] Possible /pseudo 'ATP synthase CF0 subunit I' at k141_11011 position 27909
+[16:58:23] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at k141_11011 position 70020
+[16:58:23] Found 64 unique /gene codes.
+[16:58:23] Fixed 2 duplicate /gene - ndhB_1 ndhB_2
+[16:58:23] Fixed 2 duplicate /gene - ndhA_1 ndhA_2
+[16:58:23] Fixed 2 duplicate /gene - atpF_1 atpF_2
+[16:58:23] Fixed 2 duplicate /gene - rpl2_1 rpl2_2
+[16:58:23] Fixed 2 duplicate /gene - clpP_1 clpP_2
+[16:58:23] Fixed 2 duplicate /gene - rpoC1_1 rpoC1_2
+[16:58:23] Fixed 6 colliding /gene names.
+[16:58:23] Adding /locus_tag identifiers
+[16:58:23] Assigned 111 locus_tags to CDS and RNA features.
+[16:58:23] Writing outputs to P003_WB01/
+[16:58:23] Generating annotation statistics file
+[16:58:23] Generating Genbank and Sequin files
+[16:58:23] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka' -Z P003_WB01\/P003_WB01\.err -i P003_WB01\/P003_WB01\.fsa 2> /dev/null
+[16:58:23] Deleting unwanted file: P003_WB01/errorsummary.val
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.dr
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.fixedproducts
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.ecn
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.val
+[16:58:23] Repairing broken .GBK output that tbl2asn produces...
+[16:58:23] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < P003_WB01\/P003_WB01\.gbf > P003_WB01\/P003_WB01\.gbk
+[16:58:23] Deleting unwanted file: P003_WB01/P003_WB01.gbf
+[16:58:23] Output files:
+[16:58:23] P003_WB01/P003_WB01.ffn
+[16:58:23] P003_WB01/P003_WB01.faa
+[16:58:23] P003_WB01/P003_WB01.gff
+[16:58:23] P003_WB01/P003_WB01.txt
+[16:58:23] P003_WB01/P003_WB01.gbk
+[16:58:23] P003_WB01/P003_WB01.err
+[16:58:23] P003_WB01/P003_WB01.fna
+[16:58:23] P003_WB01/P003_WB01.log
+[16:58:23] P003_WB01/P003_WB01.sqn
+[16:58:23] P003_WB01/P003_WB01.tbl
+[16:58:23] P003_WB01/P003_WB01.tsv
+[16:58:23] P003_WB01/P003_WB01.fsa
+[16:58:23] Annotation finished successfully.
+[16:58:23] Walltime used: 0.23 minutes
+[16:58:23] If you use this result please cite the Prokka paper:
+[16:58:23] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:58:23] Type 'prokka --citation' for more details.
+[16:58:23] Thank you, come again.

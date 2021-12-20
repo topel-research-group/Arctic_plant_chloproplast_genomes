@@ -1,0 +1,283 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:30 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 30 present
+DISC_FEATURE_COUNT:tRNA: 7 present
+DISC_FEATURE_COUNT:rRNA: 4 present
+DISC_COUNT_NUCLEOTIDES:3 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:41 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+FATAL: DISC_SUSPECT_RRNA_PRODUCTS:2 rRNA product names contain suspect phrase
+FATAL: DISC_SHORT_RRNA:2 rRNA features are too short
+ONCALLER_COMMENT_PRESENT:3 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:4 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:3 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:3 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:3 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:3 sequences do not include structured comments.
+MISSING_PROJECT:33 sequences do not include project.
+FATAL: RRNA_NAME_CONFLICTS:2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::30 proteins have invalid IDs.
+P003_WE06/P003_WE06:k141_39860_1 (length 42)
+P003_WE06/P003_WE06:k141_39860_2 (length 118)
+P003_WE06/P003_WE06:k141_39860_3 (length 56)
+P003_WE06/P003_WE06:k141_39860_4 (length 78)
+P003_WE06/P003_WE06:k141_39860_5 (length 81)
+P003_WE06/P003_WE06:k141_39860_6 (length 508)
+P003_WE06/P003_WE06:k141_39860_7 (length 43)
+P003_WE06/P003_WE06:k141_39860_8 (length 74)
+P003_WE06/P003_WE06:k141_39860_9 (length 223)
+P003_WE06/P003_WE06:k141_39860_10 (length 223)
+P003_WE06/P003_WE06:k141_39860_11 (length 339)
+P003_WE06/P003_WE06:k141_39860_12 (length 132)
+P003_WE06/P003_WE06:k141_39860_13 (length 78)
+P003_WE06/P003_WE06:k141_39860_14 (length 143)
+P003_WE06/P003_WE06:k141_39860_15 (length 142)
+P003_WE06/P003_WE06:k141_39860_16 (length 71)
+P003_WE06/P003_WE06:k141_39860_17 (length 219)
+P003_WE06/P003_WE06:k141_39860_18 (length 117)
+P003_WE06/P003_WE06:k141_39860_19 (length 92)
+P003_WE06/P003_WE06:k141_39860_20 (length 143)
+P003_WE06/P003_WE06:k141_39860_21 (length 136)
+P003_WE06/P003_WE06:k141_39860_22 (length 91)
+P003_WE06/P003_WE06:k141_19218_1 (length 708)
+P003_WE06/P003_WE06:k141_19218_2 (length 43)
+P003_WE06/P003_WE06:k141_19218_3 (length 51)
+P003_WE06/P003_WE06:k141_19218_4 (length 41)
+P003_WE06/P003_WE06:k141_19218_5 (length 129)
+P003_WE06/P003_WE06:k141_19218_6 (length 88)
+P003_WE06/P003_WE06:k141_19218_7 (length 81)
+P003_WE06/P003_WE06:k141_19218_8 (length 80)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::3 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::3 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 30 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 7 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 4 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::3 nucleotide Bioseqs are present
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::41 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Met	k141_32516:c242-166	P003_WE06_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:rRNA	5S ribosomal RNA (partial)	k141_32516:c435-351	P003_WE06_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:rRNA	23S ribosomal RNA (partial)	k141_32516:c1839-581	P003_WE06_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_39860:80-208	P003_WE06_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	50S ribosomal protein L21	k141_39860:574-930	P003_WE06_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L32	k141_39860:1088-1258	P003_WE06_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_39860:c1746-1510	P003_WE06_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_39860:2448-2693	P003_WE06_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	photosystem II CP47 chlorophyll apoprotein	k141_39860:3888-5414	P003_WE06_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	photosystem II protein N	k141_39860:c5968-5837	P003_WE06_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	photosystem II phosphoprotein	k141_39860:6057-6281	P003_WE06_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	cytochrome b6	k141_39860:7272-7943	P003_WE06_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	Cytochrome b6-f complex subunit 4	k141_39860:8757-9428	P003_WE06_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	DNA-directed RNA polymerase subunit alpha	k141_39860:c10716-9697	P003_WE06_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein S11	k141_39860:c11145-10747	P003_WE06_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	translational initiation factor 1	k141_39860:c11757-11521	P003_WE06_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein S8	k141_39860:c12324-11893	P003_WE06_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L14	k141_39860:c13030-12602	P003_WE06_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L16	k141_39860:c13388-13173	P003_WE06_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein S3	k141_39860:c15318-14659	P003_WE06_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L22	k141_39860:c15728-15375	P003_WE06_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein S19	k141_39860:c16024-15746	P003_WE06_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L2	k141_39860:c16491-16060	P003_WE06_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L2	k141_39860:c17576-17166	P003_WE06_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	ribosomal protein L23	k141_39860:c17894-17619	P003_WE06_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Pro	k141_39860:c1966-1893	P003_WE06_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Leu	k141_39860:2118-2197	P003_WE06_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Met	k141_39860:c18182-18109	P003_WE06_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	NADH-plastoquinone oxidoreductase subunit 5	k141_19218:16-2142	P003_WE06_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:c3606-3475	P003_WE06_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:c7867-7712	P003_WE06_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:7918-8043	P003_WE06_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:8062-8451	P003_WE06_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:12409-12675	P003_WE06_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:c12906-12661	P003_WE06_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P003_WE06/P003_WE06:CDS	hypothetical protein	k141_19218:c15477-15235	P003_WE06_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Asn	k141_19218:2954-3027	P003_WE06_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Arg	k141_19218:c3902-3828	P003_WE06_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:rRNA	23S ribosomal RNA	k141_19218:c7515-4495	P003_WE06_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:rRNA	16S ribosomal RNA	k141_19218:c14492-12997	P003_WE06_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P003_WE06/P003_WE06:tRNA	Val	k141_19218:c14778-14705	P003_WE06_00040
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+FATAL: DiscRep_ALL:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contain suspect phrase
+FATAL: DiscRep_SUB:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contains 'partial'
+P003_WE06/P003_WE06:rRNA	5S ribosomal RNA (partial)	k141_32516:c435-351	P003_WE06_00002
+P003_WE06/P003_WE06:rRNA	23S ribosomal RNA (partial)	k141_32516:c1839-581	P003_WE06_00003
+
+FATAL: DiscRep_ALL:DISC_SHORT_RRNA::2 rRNA features are too short
+P003_WE06/P003_WE06:rRNA	5S ribosomal RNA (partial)	k141_32516:c435-351	P003_WE06_00002
+P003_WE06/P003_WE06:rRNA	23S ribosomal RNA (partial)	k141_32516:c1839-581	P003_WE06_00003
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::3 comment descriptors were found (all same)
+P003_WE06/P003_WE06:k141_32516:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P003_WE06/P003_WE06:k141_39860:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P003_WE06/P003_WE06:k141_19218:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::4 protein sequences are shorter than 50 aa.
+P003_WE06/P003_WE06:k141_39860_1 (length 42)
+P003_WE06/P003_WE06:k141_39860_7 (length 43)
+P003_WE06/P003_WE06:k141_19218_2 (length 43)
+P003_WE06/P003_WE06:k141_19218_4 (length 41)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::3 bioseqs are missing GenomeAssembly structured comments
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::3 molecule types are not set as mRNA.
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::3 technique are not set as TSA
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::3 sequences do not include structured comments.
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+
+DiscRep_ALL:MISSING_PROJECT::33 sequences do not include project.
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+P003_WE06/P003_WE06:k141_39860_1 (length 42)
+P003_WE06/P003_WE06:k141_39860_2 (length 118)
+P003_WE06/P003_WE06:k141_39860_3 (length 56)
+P003_WE06/P003_WE06:k141_39860_4 (length 78)
+P003_WE06/P003_WE06:k141_39860_5 (length 81)
+P003_WE06/P003_WE06:k141_39860_6 (length 508)
+P003_WE06/P003_WE06:k141_39860_7 (length 43)
+P003_WE06/P003_WE06:k141_39860_8 (length 74)
+P003_WE06/P003_WE06:k141_39860_9 (length 223)
+P003_WE06/P003_WE06:k141_39860_10 (length 223)
+P003_WE06/P003_WE06:k141_39860_11 (length 339)
+P003_WE06/P003_WE06:k141_39860_12 (length 132)
+P003_WE06/P003_WE06:k141_39860_13 (length 78)
+P003_WE06/P003_WE06:k141_39860_14 (length 143)
+P003_WE06/P003_WE06:k141_39860_15 (length 142)
+P003_WE06/P003_WE06:k141_39860_16 (length 71)
+P003_WE06/P003_WE06:k141_39860_17 (length 219)
+P003_WE06/P003_WE06:k141_39860_18 (length 117)
+P003_WE06/P003_WE06:k141_39860_19 (length 92)
+P003_WE06/P003_WE06:k141_39860_20 (length 143)
+P003_WE06/P003_WE06:k141_39860_21 (length 136)
+P003_WE06/P003_WE06:k141_39860_22 (length 91)
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+P003_WE06/P003_WE06:k141_19218_1 (length 708)
+P003_WE06/P003_WE06:k141_19218_2 (length 43)
+P003_WE06/P003_WE06:k141_19218_3 (length 51)
+P003_WE06/P003_WE06:k141_19218_4 (length 41)
+P003_WE06/P003_WE06:k141_19218_5 (length 129)
+P003_WE06/P003_WE06:k141_19218_6 (length 88)
+P003_WE06/P003_WE06:k141_19218_7 (length 81)
+P003_WE06/P003_WE06:k141_19218_8 (length 80)
+
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+P003_WE06/P003_WE06:rRNA	5S ribosomal RNA (partial)	k141_32516:c435-351	P003_WE06_00002
+P003_WE06/P003_WE06:rRNA	23S ribosomal RNA (partial)	k141_32516:c1839-581	P003_WE06_00003
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::3 Molinfos are missing field technique
+P003_WE06/P003_WE06:k141_19218 (length 16621)
+P003_WE06/P003_WE06:k141_32516 (length 1839)
+P003_WE06/P003_WE06:k141_39860 (length 18402)
+

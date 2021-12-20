@@ -1,0 +1,377 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:45 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 45 present
+DISC_FEATURE_COUNT:tRNA: 20 present
+DISC_FEATURE_COUNT:rRNA: 2 present
+DISC_COUNT_NUCLEOTIDES:2 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:67 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:2 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:2 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:5 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:2 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:2 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:2 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:2 sequences do not include structured comments.
+MISSING_PROJECT:47 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::45 proteins have invalid IDs.
+P001_WC04/P001_WC04:k141_5332_1 (length 67)
+P001_WC04/P001_WC04:k141_5332_2 (length 507)
+P001_WC04/P001_WC04:k141_5332_3 (length 81)
+P001_WC04/P001_WC04:k141_5332_4 (length 100)
+P001_WC04/P001_WC04:k141_5332_5 (length 181)
+P001_WC04/P001_WC04:k141_5332_6 (length 160)
+P001_WC04/P001_WC04:k141_5332_7 (length 159)
+P001_WC04/P001_WC04:k141_5332_8 (length 212)
+P001_WC04/P001_WC04:k141_5332_9 (length 393)
+P001_WC04/P001_WC04:k141_5332_10 (length 86)
+P001_WC04/P001_WC04:k141_5332_11 (length 86)
+P001_WC04/P001_WC04:k141_5332_12 (length 742)
+P001_WC04/P001_WC04:k141_5332_13 (length 43)
+P001_WC04/P001_WC04:k141_5332_14 (length 34)
+P001_WC04/P001_WC04:k141_5332_15 (length 57)
+P001_WC04/P001_WC04:k141_5332_16 (length 101)
+P001_WC04/P001_WC04:k141_5332_17 (length 105)
+P001_WC04/P001_WC04:k141_5332_18 (length 155)
+P001_WC04/P001_WC04:k141_5332_19 (length 245)
+P001_WC04/P001_WC04:k141_5332_20 (length 263)
+P001_WC04/P001_WC04:k141_5332_21 (length 2393)
+P001_WC04/P001_WC04:k141_16214_1 (length 61)
+P001_WC04/P001_WC04:k141_16214_2 (length 33)
+P001_WC04/P001_WC04:k141_16214_3 (length 507)
+P001_WC04/P001_WC04:k141_16214_4 (length 124)
+P001_WC04/P001_WC04:k141_16214_5 (length 66)
+P001_WC04/P001_WC04:k141_16214_6 (length 81)
+P001_WC04/P001_WC04:k141_16214_7 (length 248)
+P001_WC04/P001_WC04:k141_16214_8 (length 231)
+P001_WC04/P001_WC04:k141_16214_9 (length 1173)
+P001_WC04/P001_WC04:k141_16214_10 (length 545)
+P001_WC04/P001_WC04:k141_16214_11 (length 68)
+P001_WC04/P001_WC04:k141_16214_12 (length 155)
+P001_WC04/P001_WC04:k141_16214_13 (length 1094)
+P001_WC04/P001_WC04:k141_16214_14 (length 29)
+P001_WC04/P001_WC04:k141_16214_15 (length 44)
+P001_WC04/P001_WC04:k141_16214_16 (length 353)
+P001_WC04/P001_WC04:k141_16214_17 (length 461)
+P001_WC04/P001_WC04:k141_16214_18 (length 83)
+P001_WC04/P001_WC04:k141_16214_19 (length 100)
+P001_WC04/P001_WC04:k141_16214_20 (length 734)
+P001_WC04/P001_WC04:k141_16214_21 (length 837)
+P001_WC04/P001_WC04:k141_16214_22 (length 82)
+P001_WC04/P001_WC04:k141_16214_23 (length 60)
+P001_WC04/P001_WC04:k141_16214_24 (length 207)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::2 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 45 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 20 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 2 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::2 nucleotide Bioseqs are present
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::67 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:168-371	P001_WC04_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 4	k141_5332:c2821-1298	P001_WC04_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem I subunit VII	k141_5332:c3202-2957	P001_WC04_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 4L	k141_5332:c3857-3555	P001_WC04_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 6	k141_5332:c4525-3980	P001_WC04_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit I	k141_5332:c5343-4861	P001_WC04_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 1	k141_5332:c5952-5473	P001_WC04_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 1	k141_5332:c7329-6691	P001_WC04_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 7	k141_5332:c8512-7331	P001_WC04_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S15	k141_5332:c8886-8626	P001_WC04_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:c9595-9335	P001_WC04_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 5	k141_5332:10350-12578	P001_WC04_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:c17844-17713	P001_WC04_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:c18094-17990	P001_WC04_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:c18313-18140	P001_WC04_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:c19826-19521	P001_WC04_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S12	k141_5332:23537-23854	P001_WC04_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S7	k141_5332:24450-24917	P001_WC04_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 2	k141_5332:25172-25909	P001_WC04_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	NADH-plastoquinone oxidoreductase subunit 2	k141_5332:26585-27376	P001_WC04_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_5332:28026-35207	P001_WC04_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Phe	k141_5332:907-979	P001_WC04_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Asn	k141_5332:c13258-13185	P001_WC04_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Arg	k141_5332:c13684-13611	P001_WC04_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:rRNA	23S ribosomal RNA	k141_5332:c17260-14186	P001_WC04_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:rRNA	16S ribosomal RNA	k141_5332:c22043-20535	P001_WC04_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Val	k141_5332:c22693-22622	P001_WC04_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Met	k141_5332:c27819-27747	P001_WC04_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Leu	k141_5332:c35486-35404	P001_WC04_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem II protein K	k141_16214:405-590	P001_WC04_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_16214:c1727-1626	P001_WC04_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ATP synthase CF1 alpha subunit	k141_16214:c4855-3332	P001_WC04_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ATP synthase CF0 subunit I	k141_16214:c5430-5056	P001_WC04_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_16214:c6294-6094	P001_WC04_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ATP synthase CF0 subunit III	k141_16214:c6804-6559	P001_WC04_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ATP synthase CF0 subunit IV	k141_16214:c8119-7373	P001_WC04_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S2	k141_16214:c9070-8375	P001_WC04_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	DNA-directed RNA polymerase subunit beta'	k141_16214:c12743-9222	P001_WC04_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	RNA polymerase beta' subunit	k141_16214:c14551-12914	P001_WC04_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_16214:14639-14845	P001_WC04_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	RNA polymerase beta' subunit	k141_16214:c15794-15327	P001_WC04_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	RNA polymerase beta subunit	k141_16214:c19084-15800	P001_WC04_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	cytochrome b6/f complex subunit VII	k141_16214:19995-20084	P001_WC04_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	Photosystem II reaction center protein M	k141_16214:c20763-20629	P001_WC04_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem II protein D2	k141_16214:22596-23657	P001_WC04_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem II CP43 chlorophyll apoprotein	k141_16214:23641-25026	P001_WC04_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_16214:c25750-25499	P001_WC04_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S14	k141_16214:c26672-26370	P001_WC04_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem I P700 apoprotein A2	k141_16214:c29004-26800	P001_WC04_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	photosystem I P700 apoprotein A1	k141_16214:c31539-29026	P001_WC04_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	putative chloroplast RF34	k141_16214:c32887-32639	P001_WC04_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	hypothetical protein	k141_16214:33301-33483	P001_WC04_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WC04/P001_WC04:CDS	ribosomal protein S4	k141_16214:c35361-34738	P001_WC04_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Gln	k141_16214:c89-17	P001_WC04_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Ser	k141_16214:c1455-1367	P001_WC04_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Arg	k141_16214:3208-3279	P001_WC04_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Cys	k141_16214:19599-19669	P001_WC04_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Asp	k141_16214:c21058-20983	P001_WC04_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Tyr	k141_16214:c21372-21287	P001_WC04_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Glu	k141_16214:c21511-21438	P001_WC04_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Thr	k141_16214:21724-21796	P001_WC04_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Ser	k141_16214:c25319-25232	P001_WC04_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Gly	k141_16214:25979-26049	P001_WC04_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Met	k141_16214:c26215-26142	P001_WC04_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Ser	k141_16214:34444-34530	P001_WC04_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Thr	k141_16214:c35731-35658	P001_WC04_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WC04/P001_WC04:tRNA	Gln	k141_16214:35885-35957	P001_WC04_00067
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::2 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains three or more numbers together that may be identifiers more appropriate in note
+P001_WC04/P001_WC04:CDS	photosystem I P700 apoprotein A2	k141_16214:c29004-26800	P001_WC04_00060
+P001_WC04/P001_WC04:CDS	photosystem I P700 apoprotein A1	k141_16214:c31539-29026	P001_WC04_00061
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::2 comment descriptors were found (all same)
+P001_WC04/P001_WC04:k141_5332:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P001_WC04/P001_WC04:k141_16214:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::5 protein sequences are shorter than 50 aa.
+P001_WC04/P001_WC04:k141_5332_13 (length 43)
+P001_WC04/P001_WC04:k141_5332_14 (length 34)
+P001_WC04/P001_WC04:k141_16214_2 (length 33)
+P001_WC04/P001_WC04:k141_16214_14 (length 29)
+P001_WC04/P001_WC04:k141_16214_15 (length 44)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::2 bioseqs are missing GenomeAssembly structured comments
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::2 molecule types are not set as mRNA.
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::2 technique are not set as TSA
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::2 sequences do not include structured comments.
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+
+DiscRep_ALL:MISSING_PROJECT::47 sequences do not include project.
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_5332_1 (length 67)
+P001_WC04/P001_WC04:k141_5332_2 (length 507)
+P001_WC04/P001_WC04:k141_5332_3 (length 81)
+P001_WC04/P001_WC04:k141_5332_4 (length 100)
+P001_WC04/P001_WC04:k141_5332_5 (length 181)
+P001_WC04/P001_WC04:k141_5332_6 (length 160)
+P001_WC04/P001_WC04:k141_5332_7 (length 159)
+P001_WC04/P001_WC04:k141_5332_8 (length 212)
+P001_WC04/P001_WC04:k141_5332_9 (length 393)
+P001_WC04/P001_WC04:k141_5332_10 (length 86)
+P001_WC04/P001_WC04:k141_5332_11 (length 86)
+P001_WC04/P001_WC04:k141_5332_12 (length 742)
+P001_WC04/P001_WC04:k141_5332_13 (length 43)
+P001_WC04/P001_WC04:k141_5332_14 (length 34)
+P001_WC04/P001_WC04:k141_5332_15 (length 57)
+P001_WC04/P001_WC04:k141_5332_16 (length 101)
+P001_WC04/P001_WC04:k141_5332_17 (length 105)
+P001_WC04/P001_WC04:k141_5332_18 (length 155)
+P001_WC04/P001_WC04:k141_5332_19 (length 245)
+P001_WC04/P001_WC04:k141_5332_20 (length 263)
+P001_WC04/P001_WC04:k141_5332_21 (length 2393)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+P001_WC04/P001_WC04:k141_16214_1 (length 61)
+P001_WC04/P001_WC04:k141_16214_2 (length 33)
+P001_WC04/P001_WC04:k141_16214_3 (length 507)
+P001_WC04/P001_WC04:k141_16214_4 (length 124)
+P001_WC04/P001_WC04:k141_16214_5 (length 66)
+P001_WC04/P001_WC04:k141_16214_6 (length 81)
+P001_WC04/P001_WC04:k141_16214_7 (length 248)
+P001_WC04/P001_WC04:k141_16214_8 (length 231)
+P001_WC04/P001_WC04:k141_16214_9 (length 1173)
+P001_WC04/P001_WC04:k141_16214_10 (length 545)
+P001_WC04/P001_WC04:k141_16214_11 (length 68)
+P001_WC04/P001_WC04:k141_16214_12 (length 155)
+P001_WC04/P001_WC04:k141_16214_13 (length 1094)
+P001_WC04/P001_WC04:k141_16214_14 (length 29)
+P001_WC04/P001_WC04:k141_16214_15 (length 44)
+P001_WC04/P001_WC04:k141_16214_16 (length 353)
+P001_WC04/P001_WC04:k141_16214_17 (length 461)
+P001_WC04/P001_WC04:k141_16214_18 (length 83)
+P001_WC04/P001_WC04:k141_16214_19 (length 100)
+P001_WC04/P001_WC04:k141_16214_20 (length 734)
+P001_WC04/P001_WC04:k141_16214_21 (length 837)
+P001_WC04/P001_WC04:k141_16214_22 (length 82)
+P001_WC04/P001_WC04:k141_16214_23 (length 60)
+P001_WC04/P001_WC04:k141_16214_24 (length 207)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::2 Molinfos are missing field technique
+P001_WC04/P001_WC04:k141_5332 (length 36101)
+P001_WC04/P001_WC04:k141_16214 (length 35973)
+

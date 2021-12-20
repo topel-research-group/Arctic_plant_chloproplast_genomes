@@ -1,0 +1,214 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:14 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 14 present
+DISC_FEATURE_COUNT:tRNA: 4 present
+DISC_FEATURE_COUNT:rRNA: 4 present
+DISC_COUNT_NUCLEOTIDES:5 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:22 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:1 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+FATAL: DISC_SUSPECT_RRNA_PRODUCTS:2 rRNA product names contain suspect phrase
+FATAL: DISC_SHORT_RRNA:1 rRNA features are too short
+ONCALLER_COMMENT_PRESENT:5 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:1 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:5 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:5 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:5 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:5 sequences do not include structured comments.
+MISSING_PROJECT:19 sequences do not include project.
+FATAL: RRNA_NAME_CONFLICTS:2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::14 proteins have invalid IDs.
+P001_WA09/P001_WA09:k141_77523_1 (length 186)
+P001_WA09/P001_WA09:k141_83412_1 (length 88)
+P001_WA09/P001_WA09:k141_83412_2 (length 79)
+P001_WA09/P001_WA09:k141_83412_3 (length 78)
+P001_WA09/P001_WA09:k141_83412_4 (length 66)
+P001_WA09/P001_WA09:k141_83412_5 (length 43)
+P001_WA09/P001_WA09:k141_60220_1 (length 122)
+P001_WA09/P001_WA09:k141_60220_2 (length 124)
+P001_WA09/P001_WA09:k141_60220_3 (length 218)
+P001_WA09/P001_WA09:k141_60220_4 (length 120)
+P001_WA09/P001_WA09:k141_60220_5 (length 92)
+P001_WA09/P001_WA09:k141_60220_6 (length 143)
+P001_WA09/P001_WA09:k141_60220_7 (length 135)
+P001_WA09/P001_WA09:k141_60292_1 (length 155)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::5 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 14 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 4 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 4 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::5 nucleotide Bioseqs are present
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::22 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:212-1365	P001_WA09_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:1832-2292	P001_WA09_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	Photosystem I P700 chlorophyll a apoprotein A1	k141_77523:371-931	P001_WA09_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	hypothetical protein	k141_83412:c387-121	P001_WA09_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	hypothetical protein	k141_83412:3225-3464	P001_WA09_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	hypothetical protein	k141_83412:3757-3993	P001_WA09_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	hypothetical protein	k141_83412:4126-4326	P001_WA09_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	hypothetical protein	k141_83412:c4891-4760	P001_WA09_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:tRNA	Val	k141_83412:1048-1121	P001_WA09_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA	k141_83412:1343-2838	P001_WA09_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:rRNA	23S ribosomal RNA	k141_83412:5137-8080	P001_WA09_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:tRNA	Arg	k141_83412:8514-8588	P001_WA09_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:tRNA	Asn	k141_83412:c9184-9109	P001_WA09_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein L14	k141_60220:c608-240	P001_WA09_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein L16	k141_60220:c1165-791	P001_WA09_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein S3	k141_60220:c2752-2096	P001_WA09_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein L22	k141_60220:c3173-2811	P001_WA09_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein S19	k141_60220:c3473-3195	P001_WA09_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein L2	k141_60220:c3938-3507	P001_WA09_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein L2	k141_60220:c4988-4581	P001_WA09_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P001_WA09/P001_WA09:tRNA	Met	k141_60220:c5537-5463	P001_WA09_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P001_WA09/P001_WA09:CDS	ribosomal protein S7	k141_60292:952-1419	P001_WA09_00022
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::1 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+P001_WA09/P001_WA09:CDS	Photosystem I P700 chlorophyll a apoprotein A1	k141_77523:371-931	P001_WA09_00003
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+FATAL: DiscRep_ALL:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contain suspect phrase
+FATAL: DiscRep_SUB:DISC_SUSPECT_RRNA_PRODUCTS::2 rRNA product names contains 'partial'
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:212-1365	P001_WA09_00001
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:1832-2292	P001_WA09_00002
+
+FATAL: DiscRep_ALL:DISC_SHORT_RRNA::1 rRNA features are too short
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:1832-2292	P001_WA09_00002
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::5 comment descriptors were found (all same)
+P001_WA09/P001_WA09:k141_62081:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P001_WA09/P001_WA09:k141_77523:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P001_WA09/P001_WA09:k141_83412:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P001_WA09/P001_WA09:k141_60220:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P001_WA09/P001_WA09:k141_60292:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::1 protein sequences are shorter than 50 aa.
+P001_WA09/P001_WA09:k141_83412_5 (length 43)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::5 bioseqs are missing GenomeAssembly structured comments
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::5 molecule types are not set as mRNA.
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::5 technique are not set as TSA
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::5 sequences do not include structured comments.
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+
+DiscRep_ALL:MISSING_PROJECT::19 sequences do not include project.
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_77523_1 (length 186)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+P001_WA09/P001_WA09:k141_83412_1 (length 88)
+P001_WA09/P001_WA09:k141_83412_2 (length 79)
+P001_WA09/P001_WA09:k141_83412_3 (length 78)
+P001_WA09/P001_WA09:k141_83412_4 (length 66)
+P001_WA09/P001_WA09:k141_83412_5 (length 43)
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60220_1 (length 122)
+P001_WA09/P001_WA09:k141_60220_2 (length 124)
+P001_WA09/P001_WA09:k141_60220_3 (length 218)
+P001_WA09/P001_WA09:k141_60220_4 (length 120)
+P001_WA09/P001_WA09:k141_60220_5 (length 92)
+P001_WA09/P001_WA09:k141_60220_6 (length 143)
+P001_WA09/P001_WA09:k141_60220_7 (length 135)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+P001_WA09/P001_WA09:k141_60292_1 (length 155)
+
+FATAL: DiscRep_ALL:RRNA_NAME_CONFLICTS::2 rRNA product names are not standard. Correct the names to the standard format, eg "16S ribosomal RNA"
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:212-1365	P001_WA09_00001
+P001_WA09/P001_WA09:rRNA	16S ribosomal RNA (partial)	k141_62081:1832-2292	P001_WA09_00002
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::5 Molinfos are missing field technique
+P001_WA09/P001_WA09:k141_60220 (length 5754)
+P001_WA09/P001_WA09:k141_60292 (length 1554)
+P001_WA09/P001_WA09:k141_62081 (length 2677)
+P001_WA09/P001_WA09:k141_77523 (length 1184)
+P001_WA09/P001_WA09:k141_83412 (length 9474)
+

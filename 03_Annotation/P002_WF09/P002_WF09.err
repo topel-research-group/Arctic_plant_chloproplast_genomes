@@ -1,0 +1,798 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:110 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 110 present
+DISC_FEATURE_COUNT:tRNA: 26 present
+DISC_FEATURE_COUNT:rRNA: 2 present
+DISC_COUNT_NUCLEOTIDES:10 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:138 features have inconsistent gene locations.
+OVERLAPPING_CDS:2 coding regions overlap another coding region with a similar or identical name.
+SUSPECT_PRODUCT_NAMES:2 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:10 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:13 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:10 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:10 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:10 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:10 sequences do not include structured comments.
+MISSING_PROJECT:120 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::110 proteins have invalid IDs.
+P002_WF09/P002_WF09:k141_4612_1 (length 82)
+P002_WF09/P002_WF09:k141_4612_2 (length 188)
+P002_WF09/P002_WF09:k141_4612_3 (length 62)
+P002_WF09/P002_WF09:k141_4612_4 (length 184)
+P002_WF09/P002_WF09:k141_4612_5 (length 229)
+P002_WF09/P002_WF09:k141_4612_6 (length 320)
+P002_WF09/P002_WF09:k141_4612_7 (length 40)
+P002_WF09/P002_WF09:k141_4612_8 (length 39)
+P002_WF09/P002_WF09:k141_4612_9 (length 83)
+P002_WF09/P002_WF09:k141_4612_10 (length 46)
+P002_WF09/P002_WF09:k141_4612_11 (length 54)
+P002_WF09/P002_WF09:k141_4612_12 (length 108)
+P002_WF09/P002_WF09:k141_12906_1 (length 69)
+P002_WF09/P002_WF09:k141_23210_1 (length 82)
+P002_WF09/P002_WF09:k141_23210_2 (length 76)
+P002_WF09/P002_WF09:k141_23210_3 (length 71)
+P002_WF09/P002_WF09:k141_23210_4 (length 36)
+P002_WF09/P002_WF09:k141_23210_5 (length 76)
+P002_WF09/P002_WF09:k141_23210_6 (length 160)
+P002_WF09/P002_WF09:k141_23210_7 (length 303)
+P002_WF09/P002_WF09:k141_23210_8 (length 260)
+P002_WF09/P002_WF09:k141_23210_9 (length 87)
+P002_WF09/P002_WF09:k141_23210_10 (length 64)
+P002_WF09/P002_WF09:k141_2790_1 (length 112)
+P002_WF09/P002_WF09:k141_2790_2 (length 121)
+P002_WF09/P002_WF09:k141_2790_3 (length 94)
+P002_WF09/P002_WF09:k141_2790_4 (length 136)
+P002_WF09/P002_WF09:k141_2790_5 (length 238)
+P002_WF09/P002_WF09:k141_2790_6 (length 102)
+P002_WF09/P002_WF09:k141_2790_7 (length 119)
+P002_WF09/P002_WF09:k141_2790_8 (length 122)
+P002_WF09/P002_WF09:k141_2790_9 (length 132)
+P002_WF09/P002_WF09:k141_2790_10 (length 77)
+P002_WF09/P002_WF09:k141_2790_11 (length 138)
+P002_WF09/P002_WF09:k141_2790_12 (length 343)
+P002_WF09/P002_WF09:k141_2790_13 (length 58)
+P002_WF09/P002_WF09:k141_2790_14 (length 356)
+P002_WF09/P002_WF09:k141_2790_15 (length 122)
+P002_WF09/P002_WF09:k141_2790_16 (length 40)
+P002_WF09/P002_WF09:k141_2790_17 (length 1062)
+P002_WF09/P002_WF09:k141_2790_18 (length 150)
+P002_WF09/P002_WF09:k141_2790_19 (length 61)
+P002_WF09/P002_WF09:k141_2790_20 (length 61)
+P002_WF09/P002_WF09:k141_2790_21 (length 580)
+P002_WF09/P002_WF09:k141_2790_22 (length 1371)
+P002_WF09/P002_WF09:k141_7033_1 (length 750)
+P002_WF09/P002_WF09:k141_7033_2 (length 734)
+P002_WF09/P002_WF09:k141_7033_3 (length 100)
+P002_WF09/P002_WF09:k141_7033_4 (length 62)
+P002_WF09/P002_WF09:k141_7033_5 (length 459)
+P002_WF09/P002_WF09:k141_7033_6 (length 353)
+P002_WF09/P002_WF09:k141_7033_7 (length 174)
+P002_WF09/P002_WF09:k141_7033_8 (length 129)
+P002_WF09/P002_WF09:k141_7033_9 (length 357)
+P002_WF09/P002_WF09:k141_7033_10 (length 36)
+P002_WF09/P002_WF09:k141_7033_11 (length 48)
+P002_WF09/P002_WF09:k141_7033_12 (length 507)
+P002_WF09/P002_WF09:k141_7033_13 (length 124)
+P002_WF09/P002_WF09:k141_7033_14 (length 89)
+P002_WF09/P002_WF09:k141_7033_15 (length 56)
+P002_WF09/P002_WF09:k141_7033_16 (length 81)
+P002_WF09/P002_WF09:k141_7033_17 (length 51)
+P002_WF09/P002_WF09:k141_7033_18 (length 247)
+P002_WF09/P002_WF09:k141_7033_19 (length 231)
+P002_WF09/P002_WF09:k141_7033_20 (length 41)
+P002_WF09/P002_WF09:k141_7044_1 (length 145)
+P002_WF09/P002_WF09:k141_11220_1 (length 77)
+P002_WF09/P002_WF09:k141_3087_1 (length 353)
+P002_WF09/P002_WF09:k141_3087_2 (length 73)
+P002_WF09/P002_WF09:k141_3087_3 (length 506)
+P002_WF09/P002_WF09:k141_3087_4 (length 46)
+P002_WF09/P002_WF09:k141_3087_5 (length 72)
+P002_WF09/P002_WF09:k141_3087_6 (length 143)
+P002_WF09/P002_WF09:k141_3087_7 (length 82)
+P002_WF09/P002_WF09:k141_3087_8 (length 44)
+P002_WF09/P002_WF09:k141_3087_9 (length 202)
+P002_WF09/P002_WF09:k141_3087_10 (length 45)
+P002_WF09/P002_WF09:k141_3087_11 (length 113)
+P002_WF09/P002_WF09:k141_3087_12 (length 143)
+P002_WF09/P002_WF09:k141_3087_13 (length 120)
+P002_WF09/P002_WF09:k141_3087_14 (length 92)
+P002_WF09/P002_WF09:k141_3087_15 (length 475)
+P002_WF09/P002_WF09:k141_3087_16 (length 88)
+P002_WF09/P002_WF09:k141_3087_17 (length 509)
+P002_WF09/P002_WF09:k141_3087_18 (length 133)
+P002_WF09/P002_WF09:k141_3087_19 (length 74)
+P002_WF09/P002_WF09:k141_3087_20 (length 176)
+P002_WF09/P002_WF09:k141_3087_21 (length 67)
+P002_WF09/P002_WF09:k141_3087_22 (length 508)
+P002_WF09/P002_WF09:k141_3087_23 (length 73)
+P002_WF09/P002_WF09:k141_3087_24 (length 162)
+P002_WF09/P002_WF09:k141_3087_25 (length 174)
+P002_WF09/P002_WF09:k141_3087_26 (length 56)
+P002_WF09/P002_WF09:k141_13966_1 (length 69)
+P002_WF09/P002_WF09:k141_13966_2 (length 91)
+P002_WF09/P002_WF09:k141_13966_3 (length 90)
+P002_WF09/P002_WF09:k141_13966_4 (length 74)
+P002_WF09/P002_WF09:k141_13966_5 (length 88)
+P002_WF09/P002_WF09:k141_13966_6 (length 348)
+P002_WF09/P002_WF09:k141_13966_7 (length 32)
+P002_WF09/P002_WF09:k141_13966_8 (length 127)
+P002_WF09/P002_WF09:k141_13966_9 (length 129)
+P002_WF09/P002_WF09:k141_13966_10 (length 39)
+P002_WF09/P002_WF09:k141_13966_11 (length 199)
+P002_WF09/P002_WF09:k141_13966_12 (length 82)
+P002_WF09/P002_WF09:k141_13966_13 (length 81)
+P002_WF09/P002_WF09:k141_13966_14 (length 122)
+P002_WF09/P002_WF09:k141_13966_15 (length 56)
+P002_WF09/P002_WF09:k141_13966_16 (length 148)
+P002_WF09/P002_WF09:k141_13966_17 (length 184)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::10 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::10 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 110 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 26 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 2 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::10 nucleotide Bioseqs are present
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::138 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_4612:128-376	P002_WF09_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_4612:c984-418	P002_WF09_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II protein K	k141_4612:3013-3201	P002_WF09_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem I assembly protein Ycf4	k141_4612:3597-4151	P002_WF09_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	envelope membrane protein	k141_4612:4311-5000	P002_WF09_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	cytochrome f	k141_4612:5224-6186	P002_WF09_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II protein J	k141_4612:c7323-7201	P002_WF09_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II cytochrome b559 beta subunit	k141_4612:c7712-7593	P002_WF09_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II cytochrome b559 alpha subunit	k141_4612:c7973-7722	P002_WF09_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem I subunit IX	k141_4612:10500-10640	P002_WF09_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L33	k141_4612:11103-11267	P002_WF09_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S18	k141_4612:11443-11769	P002_WF09_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Gln	k141_4612:c2669-2598	P002_WF09_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Trp	k141_4612:c9864-9791	P002_WF09_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Pro	k141_4612:c10098-10023	P002_WF09_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L32	k141_12906:510-719	P002_WF09_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Leu	k141_12906:1380-1459	P002_WF09_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:c4595-4347	P002_WF09_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:4677-4907	P002_WF09_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:c5184-4969	P002_WF09_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:c9039-8929	P002_WF09_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:c9442-9212	P002_WF09_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S7	k141_23210:10537-11019	P002_WF09_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic	k141_23210:11345-12256	P002_WF09_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 2	k141_23210:12780-13562	P002_WF09_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:14222-14485	P002_WF09_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_23210:14554-14748	P002_WF09_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Asn	k141_23210:2-75	P002_WF09_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Arg	k141_23210:c302-228	P002_WF09_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:rRNA	23S ribosomal RNA	k141_23210:c3788-701	P002_WF09_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:rRNA	16S ribosomal RNA	k141_23210:c7680-6194	P002_WF09_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Val	k141_23210:c7984-7909	P002_WF09_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Leu	k141_23210:14122-14204	P002_WF09_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Met	k141_23210:14973-15046	P002_WF09_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	His	k141_23210:c15846-15772	P002_WF09_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L2	k141_2790:579-917	P002_WF09_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:c2071-1706	P002_WF09_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S19	k141_2790:2197-2481	P002_WF09_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L22	k141_2790:2527-2937	P002_WF09_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S3	k141_2790:2922-3638	P002_WF09_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:3687-3995	P002_WF09_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L16	k141_2790:5072-5431	P002_WF09_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L14	k141_2790:5553-5921	P002_WF09_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S8	k141_2790:6142-6540	P002_WF09_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	translational initiation factor 1	k141_2790:6656-6889	P002_WF09_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S11	k141_2790:7206-7622	P002_WF09_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	DNA-directed RNA polymerase subunit alpha	k141_2790:7690-8721	P002_WF09_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S19	k141_2790:8960-9136	P002_WF09_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP-dependent Clp protease proteolytic subunit	k141_2790:9294-10364	P002_WF09_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:10978-11346	P002_WF09_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:c11439-11317	P002_WF09_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	RNA polymerase beta subunit	k141_2790:11936-15124	P002_WF09_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	RNA polymerase beta' subunit	k141_2790:15130-15582	P002_WF09_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:15575-15760	P002_WF09_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_2790:c15967-15782	P002_WF09_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	RNA polymerase beta' subunit	k141_2790:16198-17940	P002_WF09_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	RNA polymerase beta'' subunit	k141_2790:18122-22237	P002_WF09_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Cys	k141_25481:1227-1297	P002_WF09_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem I P700 apoprotein A1	k141_7033:1045-3297	P002_WF09_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem I P700 apoprotein A2	k141_7033:3323-5527	P002_WF09_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S14	k141_7033:5656-5958	P002_WF09_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II protein Z	k141_7033:c6840-6652	P002_WF09_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II CP43 chlorophyll apoprotein	k141_7033:c8889-7510	P002_WF09_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II protein D2	k141_7033:c9934-8873	P002_WF09_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:12950-13474	P002_WF09_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein L20	k141_7033:14457-14846	P002_WF09_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:15744-16817	P002_WF09_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	Photosystem II reaction center protein I	k141_7033:17134-17244	P002_WF09_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:18757-18903	P002_WF09_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF1 alpha subunit	k141_7033:c20968-19445	P002_WF09_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF0 subunit I	k141_7033:c21396-21022	P002_WF09_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:c21964-21695	P002_WF09_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF0 subunit I	k141_7033:c22310-22140	P002_WF09_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF0 subunit III	k141_7033:c22932-22687	P002_WF09_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:c23433-23278	P002_WF09_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF0 subunit IV	k141_7033:c24820-24077	P002_WF09_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S2	k141_7033:c25737-25042	P002_WF09_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7033:c26046-25921	P002_WF09_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Met	k141_7033:6071-6144	P002_WF09_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Gly	k141_7033:c6372-6299	P002_WF09_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Ser	k141_7033:7186-7278	P002_WF09_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Thr	k141_7033:c11517-11444	P002_WF09_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Ser	k141_7033:c17474-17387	P002_WF09_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Arg	k141_7033:19253-19324	P002_WF09_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_7044:c1806-1369	P002_WF09_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_11220:c1095-862	P002_WF09_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II protein D1	k141_3087:c1259-198	P002_WF09_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:c1587-1366	P002_WF09_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	maturase K	k141_3087:c3318-1798	P002_WF09_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:3485-3625	P002_WF09_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:5075-5293	P002_WF09_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:7255-7686	P002_WF09_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	putative chloroplast RF34	k141_3087:c9030-8782	P002_WF09_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	putative chloroplast RF34	k141_3087:c9876-9742	P002_WF09_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S4	k141_3087:c11170-10562	P002_WF09_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:12652-12789	P002_WF09_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:13754-14095	P002_WF09_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit K	k141_3087:c14916-14485	P002_WF09_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 3	k141_3087:c15583-15221	P002_WF09_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:c16198-15920	P002_WF09_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit	k141_3087:c18353-16926	P002_WF09_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:18852-19118	P002_WF09_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF1 beta subunit	k141_3087:19146-20675	P002_WF09_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ATP synthase CF1 epsilon subunit	k141_3087:20672-21073	P002_WF09_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:c21950-21726	P002_WF09_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:22928-23458	P002_WF09_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:24042-24245	P002_WF09_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II CP47 chlorophyll apoprotein	k141_3087:26799-28325	P002_WF09_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem II phosphoprotein	k141_3087:28902-29123	P002_WF09_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	cytochrome b6	k141_3087:30161-30649	P002_WF09_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	cytochrome b6/f complex subunit IV	k141_3087:31584-32108	P002_WF09_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_3087:c32395-32225	P002_WF09_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Ser	k141_3087:10202-10288	P002_WF09_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Thr	k141_3087:c11593-11519	P002_WF09_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Phe	k141_3087:13299-13372	P002_WF09_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Met	k141_3087:c21344-21272	P002_WF09_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Met	k141_3087:22338-22411	P002_WF09_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Gly	k141_3087:c22640-22567	P002_WF09_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Asp	k141_3087:c25472-25396	P002_WF09_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Tyr	k141_3087:c25669-25584	P002_WF09_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+P002_WF09/P002_WF09:tRNA	Glu	k141_3087:c25805-25731	P002_WF09_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 5	k141_13966:c404-195	P002_WF09_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 5	k141_13966:c1376-1101	P002_WF09_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_13966:c1726-1454	P002_WF09_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 5	k141_13966:c2347-2123	P002_WF09_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	ribosomal protein S15	k141_13966:3365-3631	P002_WF09_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NAD(P)H-quinone oxidoreductase subunit H, chloroplastic	k141_13966:3724-4770	P002_WF09_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	hypothetical protein	k141_13966:5810-5908	P002_WF09_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 1	k141_13966:5947-6330	P002_WF09_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit I	k141_13966:6507-6896	P002_WF09_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit I	k141_13966:6896-7015	P002_WF09_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 6	k141_13966:7383-7982	P002_WF09_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 4L	k141_13966:8236-8484	P002_WF09_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	photosystem I subunit VII	k141_13966:8691-8936	P002_WF09_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NAD(P)H-quinone oxidoreductase chain 4 1	k141_13966:9423-9791	P002_WF09_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 4	k141_13966:9782-9952	P002_WF09_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit 4	k141_13966:9973-10419	P002_WF09_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+P002_WF09/P002_WF09:CDS	cytochrome c heme attachment protein	k141_13966:c11255-10701	P002_WF09_00138
+
+DiscRep_ALL:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit I	k141_13966:6507-6896	P002_WF09_00130
+P002_WF09/P002_WF09:CDS	NADH-plastoquinone oxidoreductase subunit I	k141_13966:6896-7015	P002_WF09_00131
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::2 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::2 features contains three or more numbers together that may be identifiers more appropriate in note
+P002_WF09/P002_WF09:CDS	photosystem I P700 apoprotein A1	k141_7033:1045-3297	P002_WF09_00059
+P002_WF09/P002_WF09:CDS	photosystem I P700 apoprotein A2	k141_7033:3323-5527	P002_WF09_00060
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::10 comment descriptors were found (all same)
+P002_WF09/P002_WF09:k141_4612:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_12906:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_23210:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_2790:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_25481:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_7033:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_7044:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_11220:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_3087:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+P002_WF09/P002_WF09:k141_13966:Annotated using prokka 1.14.5 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::13 protein sequences are shorter than 50 aa.
+P002_WF09/P002_WF09:k141_4612_7 (length 40)
+P002_WF09/P002_WF09:k141_4612_8 (length 39)
+P002_WF09/P002_WF09:k141_4612_10 (length 46)
+P002_WF09/P002_WF09:k141_23210_4 (length 36)
+P002_WF09/P002_WF09:k141_2790_16 (length 40)
+P002_WF09/P002_WF09:k141_7033_10 (length 36)
+P002_WF09/P002_WF09:k141_7033_11 (length 48)
+P002_WF09/P002_WF09:k141_7033_20 (length 41)
+P002_WF09/P002_WF09:k141_3087_4 (length 46)
+P002_WF09/P002_WF09:k141_3087_8 (length 44)
+P002_WF09/P002_WF09:k141_3087_10 (length 45)
+P002_WF09/P002_WF09:k141_13966_7 (length 32)
+P002_WF09/P002_WF09:k141_13966_10 (length 39)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::10 bioseqs are missing GenomeAssembly structured comments
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::10 molecule types are not set as mRNA.
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::10 technique are not set as TSA
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::10 sequences do not include structured comments.
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+
+DiscRep_ALL:MISSING_PROJECT::120 sequences do not include project.
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_4612_1 (length 82)
+P002_WF09/P002_WF09:k141_4612_2 (length 188)
+P002_WF09/P002_WF09:k141_4612_3 (length 62)
+P002_WF09/P002_WF09:k141_4612_4 (length 184)
+P002_WF09/P002_WF09:k141_4612_5 (length 229)
+P002_WF09/P002_WF09:k141_4612_6 (length 320)
+P002_WF09/P002_WF09:k141_4612_7 (length 40)
+P002_WF09/P002_WF09:k141_4612_8 (length 39)
+P002_WF09/P002_WF09:k141_4612_9 (length 83)
+P002_WF09/P002_WF09:k141_4612_10 (length 46)
+P002_WF09/P002_WF09:k141_4612_11 (length 54)
+P002_WF09/P002_WF09:k141_4612_12 (length 108)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_12906_1 (length 69)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_23210_1 (length 82)
+P002_WF09/P002_WF09:k141_23210_2 (length 76)
+P002_WF09/P002_WF09:k141_23210_3 (length 71)
+P002_WF09/P002_WF09:k141_23210_4 (length 36)
+P002_WF09/P002_WF09:k141_23210_5 (length 76)
+P002_WF09/P002_WF09:k141_23210_6 (length 160)
+P002_WF09/P002_WF09:k141_23210_7 (length 303)
+P002_WF09/P002_WF09:k141_23210_8 (length 260)
+P002_WF09/P002_WF09:k141_23210_9 (length 87)
+P002_WF09/P002_WF09:k141_23210_10 (length 64)
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_2790_1 (length 112)
+P002_WF09/P002_WF09:k141_2790_2 (length 121)
+P002_WF09/P002_WF09:k141_2790_3 (length 94)
+P002_WF09/P002_WF09:k141_2790_4 (length 136)
+P002_WF09/P002_WF09:k141_2790_5 (length 238)
+P002_WF09/P002_WF09:k141_2790_6 (length 102)
+P002_WF09/P002_WF09:k141_2790_7 (length 119)
+P002_WF09/P002_WF09:k141_2790_8 (length 122)
+P002_WF09/P002_WF09:k141_2790_9 (length 132)
+P002_WF09/P002_WF09:k141_2790_10 (length 77)
+P002_WF09/P002_WF09:k141_2790_11 (length 138)
+P002_WF09/P002_WF09:k141_2790_12 (length 343)
+P002_WF09/P002_WF09:k141_2790_13 (length 58)
+P002_WF09/P002_WF09:k141_2790_14 (length 356)
+P002_WF09/P002_WF09:k141_2790_15 (length 122)
+P002_WF09/P002_WF09:k141_2790_16 (length 40)
+P002_WF09/P002_WF09:k141_2790_17 (length 1062)
+P002_WF09/P002_WF09:k141_2790_18 (length 150)
+P002_WF09/P002_WF09:k141_2790_19 (length 61)
+P002_WF09/P002_WF09:k141_2790_20 (length 61)
+P002_WF09/P002_WF09:k141_2790_21 (length 580)
+P002_WF09/P002_WF09:k141_2790_22 (length 1371)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7033_1 (length 750)
+P002_WF09/P002_WF09:k141_7033_2 (length 734)
+P002_WF09/P002_WF09:k141_7033_3 (length 100)
+P002_WF09/P002_WF09:k141_7033_4 (length 62)
+P002_WF09/P002_WF09:k141_7033_5 (length 459)
+P002_WF09/P002_WF09:k141_7033_6 (length 353)
+P002_WF09/P002_WF09:k141_7033_7 (length 174)
+P002_WF09/P002_WF09:k141_7033_8 (length 129)
+P002_WF09/P002_WF09:k141_7033_9 (length 357)
+P002_WF09/P002_WF09:k141_7033_10 (length 36)
+P002_WF09/P002_WF09:k141_7033_11 (length 48)
+P002_WF09/P002_WF09:k141_7033_12 (length 507)
+P002_WF09/P002_WF09:k141_7033_13 (length 124)
+P002_WF09/P002_WF09:k141_7033_14 (length 89)
+P002_WF09/P002_WF09:k141_7033_15 (length 56)
+P002_WF09/P002_WF09:k141_7033_16 (length 81)
+P002_WF09/P002_WF09:k141_7033_17 (length 51)
+P002_WF09/P002_WF09:k141_7033_18 (length 247)
+P002_WF09/P002_WF09:k141_7033_19 (length 231)
+P002_WF09/P002_WF09:k141_7033_20 (length 41)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_7044_1 (length 145)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_11220_1 (length 77)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_3087_1 (length 353)
+P002_WF09/P002_WF09:k141_3087_2 (length 73)
+P002_WF09/P002_WF09:k141_3087_3 (length 506)
+P002_WF09/P002_WF09:k141_3087_4 (length 46)
+P002_WF09/P002_WF09:k141_3087_5 (length 72)
+P002_WF09/P002_WF09:k141_3087_6 (length 143)
+P002_WF09/P002_WF09:k141_3087_7 (length 82)
+P002_WF09/P002_WF09:k141_3087_8 (length 44)
+P002_WF09/P002_WF09:k141_3087_9 (length 202)
+P002_WF09/P002_WF09:k141_3087_10 (length 45)
+P002_WF09/P002_WF09:k141_3087_11 (length 113)
+P002_WF09/P002_WF09:k141_3087_12 (length 143)
+P002_WF09/P002_WF09:k141_3087_13 (length 120)
+P002_WF09/P002_WF09:k141_3087_14 (length 92)
+P002_WF09/P002_WF09:k141_3087_15 (length 475)
+P002_WF09/P002_WF09:k141_3087_16 (length 88)
+P002_WF09/P002_WF09:k141_3087_17 (length 509)
+P002_WF09/P002_WF09:k141_3087_18 (length 133)
+P002_WF09/P002_WF09:k141_3087_19 (length 74)
+P002_WF09/P002_WF09:k141_3087_20 (length 176)
+P002_WF09/P002_WF09:k141_3087_21 (length 67)
+P002_WF09/P002_WF09:k141_3087_22 (length 508)
+P002_WF09/P002_WF09:k141_3087_23 (length 73)
+P002_WF09/P002_WF09:k141_3087_24 (length 162)
+P002_WF09/P002_WF09:k141_3087_25 (length 174)
+P002_WF09/P002_WF09:k141_3087_26 (length 56)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+P002_WF09/P002_WF09:k141_13966_1 (length 69)
+P002_WF09/P002_WF09:k141_13966_2 (length 91)
+P002_WF09/P002_WF09:k141_13966_3 (length 90)
+P002_WF09/P002_WF09:k141_13966_4 (length 74)
+P002_WF09/P002_WF09:k141_13966_5 (length 88)
+P002_WF09/P002_WF09:k141_13966_6 (length 348)
+P002_WF09/P002_WF09:k141_13966_7 (length 32)
+P002_WF09/P002_WF09:k141_13966_8 (length 127)
+P002_WF09/P002_WF09:k141_13966_9 (length 129)
+P002_WF09/P002_WF09:k141_13966_10 (length 39)
+P002_WF09/P002_WF09:k141_13966_11 (length 199)
+P002_WF09/P002_WF09:k141_13966_12 (length 82)
+P002_WF09/P002_WF09:k141_13966_13 (length 81)
+P002_WF09/P002_WF09:k141_13966_14 (length 122)
+P002_WF09/P002_WF09:k141_13966_15 (length 56)
+P002_WF09/P002_WF09:k141_13966_16 (length 148)
+P002_WF09/P002_WF09:k141_13966_17 (length 184)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::10 Molinfos are missing field technique
+P002_WF09/P002_WF09:k141_2790 (length 22635)
+P002_WF09/P002_WF09:k141_3087 (length 32660)
+P002_WF09/P002_WF09:k141_4612 (length 11899)
+P002_WF09/P002_WF09:k141_7033 (length 26930)
+P002_WF09/P002_WF09:k141_7044 (length 2269)
+P002_WF09/P002_WF09:k141_11220 (length 1402)
+P002_WF09/P002_WF09:k141_12906 (length 1835)
+P002_WF09/P002_WF09:k141_13966 (length 11517)
+P002_WF09/P002_WF09:k141_23210 (length 16064)
+P002_WF09/P002_WF09:k141_25481 (length 2050)
+
