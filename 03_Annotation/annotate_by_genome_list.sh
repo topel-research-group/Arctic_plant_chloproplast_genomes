@@ -39,7 +39,7 @@ sed -r 's/^/>/' subject_names_blast.txt > subject_names_blast_fasta_format.txt
 paste -d' ' subject_names_blast_fasta_format.txt percent_identity_prepared.txt gene_genbank_information.txt > new_fasta_discriptors.txt
 
 #linearize fasta file  and extract the matched sequences
-cat ../*[0-9].ffn | awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}'| grep -w -A 1 -f subject_names_blast.txt | sed -r 's/-//' > subject_seqs.txt 
+cat ../*[0-9].ffn | awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}'| grep -w -A 1 -f subject_names_blast.txt | sed -r 's/-*//' > subject_seqs.txt 
 cat ../*[0-9].ffn | awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}'| grep -w -v -A 1 -f subject_names_blast.txt | sed -r 's/-//' > unmatched_subjects.fa
 
 #get folder name for naming outputfile

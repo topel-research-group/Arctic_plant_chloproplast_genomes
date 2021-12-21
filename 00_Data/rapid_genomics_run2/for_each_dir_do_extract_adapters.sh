@@ -13,6 +13,6 @@ cd $DIR
 awk '/>>Overrepresented sequences/ {p=1}; p; />>END_MODULE/ {p=0}' fastqc_data.txt | head -n-1 | sed '1,2d' >> $HERE/adapters_temp.txt
 cd $HERE
 cut -f 1,4 adapters_temp.txt | sort | uniq | sort -k3 > adapters.txt
-rm adapters_temp.txt
+#rm adapters_temp.txt
 
 done
