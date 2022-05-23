@@ -1,0 +1,6 @@
+#Submit blast run for all genes to the queing system
+for TAX in `find ./* -maxdepth 0 -type d`; do
+    cd $TAX
+	qsub ../extract_sample_full_taxonomy_from_BLASTID.sge
+    cd ..
+done
