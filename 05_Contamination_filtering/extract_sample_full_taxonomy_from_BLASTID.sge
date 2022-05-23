@@ -1,0 +1,22 @@
+#$ -cwd
+#$ -q Annotation-[4]
+#$ -pe mpi 40
+#$ -S /bin/bash
+
+#This script extracts the full taxonomy of BLAST hits based on taxonid and affixes it to the end of the blast results (for all gene models within each unique chloroplast gene identified e.g. each folder in 04_alighnment)
+module load Anaconda3/v2018.12
+
+    #Create correct output file name
+    GENE=$(pwd | cut -d '/' -f 7)
+    FILEIN="${GENE}_BLAST_out.txt"
+    FILEOUT1="full_${GENE}_BLAST_taxonomy.txt"
+    FILEOUT2="${GENE}_BLAST_out_with_taxonomy.txt"
+    rm ${FILEOUT1}    
+    for ID_SAMPLE in $(cut -d$'\t' -f8 ${FILEIN})
+    do
+        echo $ID_SAMPLE
+        echo $ID_SAMPLE | ./../full_taxonomy.py --header speciesID - >> ${FILEOUT1}
+    done
+    paste ${FILEIN} ${FILEOUT1} > ${FILEOUT2}
+    rm ${FILEOUT1}
+ 

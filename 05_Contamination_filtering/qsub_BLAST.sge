@@ -1,0 +1,14 @@
+#$ -cwd
+#$ -q Annotation-[2-4]
+#$ -pe mpi 4
+#$ -S /bin/bash
+
+# Modules used
+module load blast/v2.8.1
+
+#run blast vs NCBI nucleotide db
+#Create correct output file name
+GENE=$(pwd | cut -d '/' -f 7)
+FILEIN="${GENE}_all_seq.fa"
+FILEOUT="${GENE}_BLAST_out.txt"
+blastn -db /db/nt -query $FILEIN -task dc-megablast -outfmt '6 qseqid sseqid slen pident length mismatch bitscore staxids salltitles' -num_threads 4 | sort -k1,1 -k7,7nr | sort -u -k1,1 --merge > $FILEOUT

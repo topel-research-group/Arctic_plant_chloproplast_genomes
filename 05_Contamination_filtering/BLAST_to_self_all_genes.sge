@@ -1,0 +1,21 @@
+#$ -cwd
+#$ -q Annotation-2
+#$ -pe mpi 20
+#$ -S /bin/bash
+
+#This script runs Blast within for each gene against itself and save the top 3 non duplicate hits. This find out wether samples with multiple gene models are contaminated (e.g. if they group within the expected order/family)
+# Modules used
+module load blast/v2.8.1
+
+for BLAST in `find ./* -maxdepth 0 -type d`; do
+    cd $BLAST
+    #Create correct output file name
+    GENE=$(pwd | cut -d '/' -f 7)
+    FILEIN="${GENE}_all_seq.fa"
+    FILEOUT="${GENE}_BLAST_to_self_top_4_out.txt"
+        #Create blastdb
+        makeblastdb -in ${FILEIN} -dbtype nucl
+        #run blast vs itself to find the closest hits for each gene model
+        blastn -db ${FILEIN} -query ${FILEIN} -task dc-megablast -max_target_seqs 5 -outfmt '6 qseqid sseqid slen pident length mismatch bitscore' -num_threads 4 | sort -k1,1 -k7,7nr | awk '{a[$1]=a[$1]" " $2}END{for (i in a) print i" " a[i]}'| awk '{$2=""; print $0}' > ${FILEOUT}
+    cd ..
+done

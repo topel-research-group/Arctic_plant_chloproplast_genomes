@@ -1,0 +1,20 @@
+#$ -cwd
+#$ -q Annotation-1
+#$ -pe mpi 4
+#$ -S /bin/bash
+
+# Modules used
+module load seaview
+
+for TAX in `find ./* -maxdepth 0 -type d`; do
+    cd $TAX
+    #Create correct output file name
+    GENE=$(pwd | cut -d '/' -f 7)
+    echo $GENE
+    seaview -align -output_format fasta -o ${GENE}_post_contig_contamination_filer_alighned_v2.fasta -align_at_protein_level -align_algo 1 ${GENE}_post_contig_contamination_filer_v2.fasta
+    #Remaining samples that have multiple unique sequences for gene model
+    grep ">" ${GENE}_post_contig_contamination_filer_v2.fasta | cut -d ' ' -f1 | sed 's/_00...//g' | sort |uniq -D | uniq -c > ${GENE}_duplicates_post_contig_contamination_filter_v2.txt
+    cd ..
+done
+
+
