@@ -12,6 +12,7 @@ ${GENE}_BLAST_top_ncbi_hit_and_self_top_4_out_family_contig_summary.txt
 ${GENE}_post_contig_contamination_filer_alighned.fasta #gene alighnment prior to contig filter
 ${GENE}_post_contig_contamination_filer_alighned_v2.fasta #gene alighnment post contig filter and duplicate correction from script
 
+#scripts
 remove_unresolvable_comtaminated_samples.sh #removes comtaminated samples which did not contain any material from the target species from the analysis
 check_gene_model_with_contig_taxonomy.sh #This script extracts most common family blast hits per contig (helps with taxonomic grouping of lesser sequenced genes genes)
 remove_seq_based_on_contaminated_contigs.sh #loops over all folders (genes) and removes any sequences derived from contigs that were contaminated then loads the results into a new fasta file (${GENE}_post_contig_contamination_filer.fasta)
@@ -22,7 +23,7 @@ create_consensus_of_duplicates.sh #This script loops over all gene folders. Then
 								  #then it creates an updated fasta file (${GENE}_post_contig_contamination_filer_v2.fasta)
 								  #Creates a file that logs duplicate sequencece id, number of ambiguous bases in consesus, number of duplicates remaining duplicates, gene name (${GENE}_duplicates_post_contig_contamination_filter_consensus_quality.txt)
 
-
+#files
 samples_to_remove.txt #List of sample names that were removed based on 04_Alighnment
 contigs_to_remove.txt #List of hybrid and mismatched contigs that were removed
 potential_hybrid_contigs.txt # List of hybrid (70% > family level mismatch) contigs
